@@ -6,3 +6,8 @@
 - Evidence: 5 hand-worked examples match the program item by item; 33 tests; independent receipt check 790 assertions; synthetic trace totals Sol $0.0606 / Luna $0.00303 / Opus $0.1176 / Opus Fast $0.2352.
 - Honest limits: fleet sample (23 turns) lacks original model + per-request boundaries, so its Sol/Luna totals stay unknown; no quality/latency evidence, so `route` only offers cost scenarios, never claims a downgrade is safe.
 - Not done: no web tool page yet (next brick), not published, not on GitHub. Built on mini (commit c8e39ad), cloned to main Mac.
+
+## 2026-09-24 — Published (user confirmed shape, ask a5b7d8db)
+- Web tool live at https://cost.mkyang.ai (Vercel static `web/`, CNAME via Cloudflare, no backend, logs never leave the browser). Source public at https://github.com/mkmkkkkk/cost-router (branch master). README links both.
+- Collision point + feedback signals: inbound-radar watches GitHub traffic on this repo next (add to its repo list); Vercel analytics off (no paid plan); first-user channel = search terms in SHAPE_CARD.md + a de-identified recomputation post in the OpenRouter community (not yet posted).
+- Scrubbed before publish: absolute mini paths in samples/*.provenance.json and two red-test receipts.
