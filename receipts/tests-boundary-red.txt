@@ -35,7 +35,7 @@ test_real_sample_import (test_cost_router.ImportTests.test_real_sample_import) .
 FAIL: test_per_round_limits (test_cost_router.BillingTests.test_per_round_limits)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/Users/michaelmacmini/Documents/Workspace/cost-router/tests/test_cost_router.py", line 107, in test_per_round_limits
+  File "tests/test_cost_router.py", line 107, in test_per_round_limits
     self.assertEqual(result['strategy'][0]['selected'], 'gpt-6-sol')
     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: 'gpt-6-luna' != 'gpt-6-sol'
