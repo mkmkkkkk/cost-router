@@ -1,0 +1,51 @@
+test_aggregate_context_not_inferred_from_sum (test_cost_router.BillingTests.test_aggregate_context_not_inferred_from_sum) ... ok
+test_bad_slo_rejected (test_cost_router.BillingTests.test_bad_slo_rejected) ... ok
+test_context_capacity (test_cost_router.BillingTests.test_context_capacity) ... ok
+test_evidence_for_wrong_kind_rejected (test_cost_router.BillingTests.test_evidence_for_wrong_kind_rejected) ... ok
+test_exclusive_generic_input (test_cost_router.BillingTests.test_exclusive_generic_input) ... ok
+test_failed_without_usage_makes_total_unknown (test_cost_router.BillingTests.test_failed_without_usage_makes_total_unknown) ... ok
+test_fast_cache_each_component_doubles (test_cost_router.BillingTests.test_fast_cache_each_component_doubles) ... ok
+test_fast_only_with_evidence (test_cost_router.BillingTests.test_fast_only_with_evidence) ... ok
+test_global_route_chooses_feasible_combination (test_cost_router.BillingTests.test_global_route_chooses_feasible_combination) ... ok
+test_handworked_cache_and_reasoning (test_cost_router.BillingTests.test_handworked_cache_and_reasoning) ... ok
+test_handworked_fast_double (test_cost_router.BillingTests.test_handworked_fast_double) ... ok
+test_handworked_long_context (test_cost_router.BillingTests.test_handworked_long_context) ... ok
+test_handworked_retry (test_cost_router.BillingTests.test_handworked_retry) ... ok
+test_invalid_counts (test_cost_router.BillingTests.test_invalid_counts) ... ok
+test_long_boundary (test_cost_router.BillingTests.test_long_boundary) ... ok
+test_missing_cache_is_not_zero (test_cost_router.BillingTests.test_missing_cache_is_not_zero) ... ok
+test_missing_reasoning_still_bills_inclusive_output (test_cost_router.BillingTests.test_missing_reasoning_still_bills_inclusive_output) ... ok
+test_missing_tools_not_zero (test_cost_router.BillingTests.test_missing_tools_not_zero) ... ok
+test_one_hour_write (test_cost_router.BillingTests.test_one_hour_write) ... ok
+test_per_round_limits (test_cost_router.BillingTests.test_per_round_limits) ... FAIL
+test_price_provenance (test_cost_router.BillingTests.test_price_provenance) ... ok
+test_route_evidence_and_deadline (test_cost_router.BillingTests.test_route_evidence_and_deadline) ... ok
+test_route_no_quality_claim (test_cost_router.BillingTests.test_route_no_quality_claim) ... ok
+test_unknown_cache_ttl (test_cost_router.BillingTests.test_unknown_cache_ttl) ... ok
+test_unknown_model (test_cost_router.BillingTests.test_unknown_model) ... ok
+test_csv_matches_jsonl (test_cost_router.ImportTests.test_csv_matches_jsonl) ... ok
+test_cumulative_deltas_not_double_counted (test_cost_router.ImportTests.test_cumulative_deltas_not_double_counted) ... ok
+test_empty_rejected (test_cost_router.ImportTests.test_empty_rejected) ... ok
+test_exec_retry_and_no_usage_failure (test_cost_router.ImportTests.test_exec_retry_and_no_usage_failure) ... ok
+test_malformed_line_rejected (test_cost_router.ImportTests.test_malformed_line_rejected) ... ok
+test_native_duplicate_not_billed_twice (test_cost_router.ImportTests.test_native_duplicate_not_billed_twice) ... ok
+test_real_sample_import (test_cost_router.ImportTests.test_real_sample_import) ... ok
+
+======================================================================
+FAIL: test_per_round_limits (test_cost_router.BillingTests.test_per_round_limits)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/michaelmacmini/Documents/Workspace/cost-router/tests/test_cost_router.py", line 107, in test_per_round_limits
+    self.assertEqual(result['strategy'][0]['selected'], 'gpt-6-sol')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'gpt-6-luna' != 'gpt-6-sol'
+- gpt-6-luna
+?        ---
++ gpt-6-sol
+?       ++
+
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.003s
+
+FAILED (failures=1)

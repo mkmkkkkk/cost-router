@@ -1,0 +1,3 @@
+#!/usr/bin/env python3
+from cost_router.__main__ import main
+main()

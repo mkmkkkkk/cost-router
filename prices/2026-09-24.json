@@ -1,0 +1,482 @@
+{
+  "snapshot_date": "2026-09-24",
+  "fetched_at": "2026-09-23T17:41:22+00:00",
+  "currency": "USD",
+  "unit": "per 1000000 tokens",
+  "scope": "first-party API global standard / Opus Fast; excludes subscriptions, tax, regional uplifts, batch, reseller markups",
+  "price_field_count_definition": "4 model/mode entries x 2 context regimes x 6 token price fields; tool fee metadata excluded",
+  "models": {
+    "gpt-6-sol": {
+      "provider": "openai",
+      "mode": "standard",
+      "rates": {
+        "short": {
+          "input": {
+            "value": "2",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cached_input": {
+            "value": "0.2",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cache_write_input": {
+            "value": "2.5",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cache_write_1h_input": {
+            "value": "unknown",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "No distinct 1-hour cache-write rate verified; do not infer from default write pricing."
+          },
+          "output": {
+            "value": "10",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "reasoning_output": {
+            "value": "10",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "Included in output_tokens; same output rate, never additive.",
+            "semantics_source_url": "https://developers.openai.com/api/docs/guides/reasoning"
+          }
+        },
+        "long": {
+          "input": {
+            "value": "4",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cached_input": {
+            "value": "0.4",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cache_write_input": {
+            "value": "5",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cache_write_1h_input": {
+            "value": "unknown",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "No distinct 1-hour cache-write rate verified; do not infer from default write pricing."
+          },
+          "output": {
+            "value": "15",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "reasoning_output": {
+            "value": "15",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "Included in output_tokens; same output rate, never additive.",
+            "semantics_source_url": "https://developers.openai.com/api/docs/guides/reasoning"
+          }
+        }
+      },
+      "long_context_threshold": {
+        "value": 272000,
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-6-sol",
+        "fetched_at": "2026-09-23T17:41:22+00:00",
+        "note": "Strictly greater than threshold, whole request; null = flat pricing."
+      },
+      "context_window": {
+        "value": 1050000,
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-6-sol",
+        "fetched_at": "2026-09-23T17:41:22+00:00",
+        "note": ""
+      },
+      "tool_fee": {
+        "value": "unknown",
+        "source_url": "https://developers.openai.com/api/docs/pricing",
+        "fetched_at": "2026-09-23T17:41:22+00:00",
+        "note": "No universal tool fee. Supply measured per-model tool_cost_usd or explicit zero when no billable tools."
+      },
+      "reasoning_semantics": {
+        "value": "included_in_output",
+        "source_url": "https://developers.openai.com/api/docs/guides/reasoning",
+        "fetched_at": "2026-09-23T17:41:22+00:00",
+        "note": ""
+      }
+    },
+    "gpt-6-luna": {
+      "provider": "openai",
+      "mode": "standard",
+      "rates": {
+        "short": {
+          "input": {
+            "value": "0.1",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cached_input": {
+            "value": "0.01",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cache_write_input": {
+            "value": "0.125",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cache_write_1h_input": {
+            "value": "unknown",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "No distinct 1-hour cache-write rate verified; do not infer from default write pricing."
+          },
+          "output": {
+            "value": "0.5",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "reasoning_output": {
+            "value": "0.5",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "Included in output_tokens; same output rate, never additive.",
+            "semantics_source_url": "https://developers.openai.com/api/docs/guides/reasoning"
+          }
+        },
+        "long": {
+          "input": {
+            "value": "0.2",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cached_input": {
+            "value": "0.02",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cache_write_input": {
+            "value": "0.25",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cache_write_1h_input": {
+            "value": "unknown",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "No distinct 1-hour cache-write rate verified; do not infer from default write pricing."
+          },
+          "output": {
+            "value": "0.75",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "reasoning_output": {
+            "value": "0.75",
+            "source_url": "https://developers.openai.com/api/docs/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "Included in output_tokens; same output rate, never additive.",
+            "semantics_source_url": "https://developers.openai.com/api/docs/guides/reasoning"
+          }
+        }
+      },
+      "long_context_threshold": {
+        "value": 272000,
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+        "fetched_at": "2026-09-23T17:41:22+00:00",
+        "note": "Strictly greater than threshold, whole request; null = flat pricing."
+      },
+      "context_window": {
+        "value": 1050000,
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+        "fetched_at": "2026-09-23T17:41:22+00:00",
+        "note": ""
+      },
+      "tool_fee": {
+        "value": "unknown",
+        "source_url": "https://developers.openai.com/api/docs/pricing",
+        "fetched_at": "2026-09-23T17:41:22+00:00",
+        "note": "No universal tool fee. Supply measured per-model tool_cost_usd or explicit zero when no billable tools."
+      },
+      "reasoning_semantics": {
+        "value": "included_in_output",
+        "source_url": "https://developers.openai.com/api/docs/guides/reasoning",
+        "fetched_at": "2026-09-23T17:41:22+00:00",
+        "note": ""
+      }
+    },
+    "claude-opus-5-5": {
+      "provider": "anthropic",
+      "mode": "standard",
+      "rates": {
+        "short": {
+          "input": {
+            "value": "4",
+            "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cached_input": {
+            "value": "0.2",
+            "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cache_write_input": {
+            "value": "5",
+            "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cache_write_1h_input": {
+            "value": "8",
+            "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "output": {
+            "value": "20",
+            "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "reasoning_output": {
+            "value": "20",
+            "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "Included in output_tokens; same output rate, never additive.",
+            "semantics_source_url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking"
+          }
+        },
+        "long": {
+          "input": {
+            "value": "4",
+            "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cached_input": {
+            "value": "0.2",
+            "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cache_write_input": {
+            "value": "5",
+            "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cache_write_1h_input": {
+            "value": "8",
+            "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "output": {
+            "value": "20",
+            "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "reasoning_output": {
+            "value": "20",
+            "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "Included in output_tokens; same output rate, never additive.",
+            "semantics_source_url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking"
+          }
+        }
+      },
+      "long_context_threshold": {
+        "value": null,
+        "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "fetched_at": "2026-09-23T17:41:22+00:00",
+        "note": "Strictly greater than threshold, whole request; null = flat pricing."
+      },
+      "context_window": {
+        "value": 1000000,
+        "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "fetched_at": "2026-09-23T17:41:22+00:00",
+        "note": ""
+      },
+      "tool_fee": {
+        "value": "unknown",
+        "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "fetched_at": "2026-09-23T17:41:22+00:00",
+        "note": "No universal tool fee. Supply measured per-model tool_cost_usd or explicit zero when no billable tools."
+      },
+      "reasoning_semantics": {
+        "value": "included_in_output",
+        "source_url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking",
+        "fetched_at": "2026-09-23T17:41:22+00:00",
+        "note": ""
+      }
+    },
+    "claude-opus-5-5:fast": {
+      "provider": "anthropic",
+      "mode": "fast",
+      "rates": {
+        "short": {
+          "input": {
+            "value": "8",
+            "source_url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cached_input": {
+            "value": "0.4",
+            "source_url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "Derived from Fast input $8 times published cache multiplier: read 0.05, 5m write 1.25, 1h write 2.",
+            "multiplier_source_url": "https://platform.claude.com/docs/en/about-claude/pricing"
+          },
+          "cache_write_input": {
+            "value": "10",
+            "source_url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "Derived from Fast input $8 times published cache multiplier: read 0.05, 5m write 1.25, 1h write 2.",
+            "multiplier_source_url": "https://platform.claude.com/docs/en/about-claude/pricing"
+          },
+          "cache_write_1h_input": {
+            "value": "16",
+            "source_url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "Derived from Fast input $8 times published cache multiplier: read 0.05, 5m write 1.25, 1h write 2.",
+            "multiplier_source_url": "https://platform.claude.com/docs/en/about-claude/pricing"
+          },
+          "output": {
+            "value": "40",
+            "source_url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "reasoning_output": {
+            "value": "40",
+            "source_url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "Included in output_tokens; same output rate, never additive.",
+            "semantics_source_url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking"
+          }
+        },
+        "long": {
+          "input": {
+            "value": "8",
+            "source_url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "cached_input": {
+            "value": "0.4",
+            "source_url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "Derived from Fast input $8 times published cache multiplier: read 0.05, 5m write 1.25, 1h write 2.",
+            "multiplier_source_url": "https://platform.claude.com/docs/en/about-claude/pricing"
+          },
+          "cache_write_input": {
+            "value": "10",
+            "source_url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "Derived from Fast input $8 times published cache multiplier: read 0.05, 5m write 1.25, 1h write 2.",
+            "multiplier_source_url": "https://platform.claude.com/docs/en/about-claude/pricing"
+          },
+          "cache_write_1h_input": {
+            "value": "16",
+            "source_url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "Derived from Fast input $8 times published cache multiplier: read 0.05, 5m write 1.25, 1h write 2.",
+            "multiplier_source_url": "https://platform.claude.com/docs/en/about-claude/pricing"
+          },
+          "output": {
+            "value": "40",
+            "source_url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": ""
+          },
+          "reasoning_output": {
+            "value": "40",
+            "source_url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+            "fetched_at": "2026-09-23T17:41:22+00:00",
+            "note": "Included in output_tokens; same output rate, never additive.",
+            "semantics_source_url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking"
+          }
+        }
+      },
+      "long_context_threshold": {
+        "value": null,
+        "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "fetched_at": "2026-09-23T17:41:22+00:00",
+        "note": "Strictly greater than threshold, whole request; null = flat pricing."
+      },
+      "context_window": {
+        "value": 1000000,
+        "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "fetched_at": "2026-09-23T17:41:22+00:00",
+        "note": ""
+      },
+      "tool_fee": {
+        "value": "unknown",
+        "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "fetched_at": "2026-09-23T17:41:22+00:00",
+        "note": "No universal tool fee. Supply measured per-model tool_cost_usd or explicit zero when no billable tools."
+      },
+      "reasoning_semantics": {
+        "value": "included_in_output",
+        "source_url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking",
+        "fetched_at": "2026-09-23T17:41:22+00:00",
+        "note": ""
+      }
+    }
+  },
+  "unavailable_models": {
+    "claude-sonnet-5-5": {
+      "value": "unknown",
+      "source_url": "https://www.anthropic.com/claude-opus-5-5",
+      "fetched_at": "2026-09-23T17:41:22+00:00",
+      "note": "Announcement says coming in the following weeks; no official price verified. Excluded from all; not replaced with Sonnet 5."
+    }
+  },
+  "cross_checks": [
+    {
+      "model": "gpt-6-sol",
+      "source_url": "https://openrouter.ai/openai/gpt-6-sol",
+      "fetched_at": "2026-09-23T17:41:22+00:00",
+      "input": "2",
+      "output": "10",
+      "result": "matches official short-context standard input/output; other fields not cross-verified"
+    },
+    {
+      "model": "gpt-6-luna",
+      "source_url": "https://openrouter.ai/openai/gpt-6-luna",
+      "fetched_at": "2026-09-23T17:41:22+00:00",
+      "input": "0.1",
+      "output": "0.5",
+      "result": "matches official short-context standard input/output; other fields not cross-verified"
+    },
+    {
+      "model": "claude-opus-5-5",
+      "source_url": "https://openrouter.ai/anthropic/claude-opus-5.5",
+      "fetched_at": "2026-09-23T17:41:22+00:00",
+      "input": "4",
+      "output": "20",
+      "result": "matches official short-context standard input/output; other fields not cross-verified"
+    }
+  ]
+}

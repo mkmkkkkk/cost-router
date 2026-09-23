@@ -1,0 +1,14 @@
+synthetic gpt-6-sol rounds=3 independently_recomputed_usd=0.0606 total=0.0606
+synthetic gpt-6-luna rounds=3 independently_recomputed_usd=0.00303 total=0.00303
+synthetic claude-opus-5-5 rounds=3 independently_recomputed_usd=0.1176 total=0.1176
+synthetic claude-opus-5-5:fast rounds=3 independently_recomputed_usd=0.2352 total=0.2352
+real gpt-6-sol rounds=25 independently_recomputed_usd=0.8157508 total=unknown
+real gpt-6-luna rounds=25 independently_recomputed_usd=0.04078754 total=unknown
+real claude-opus-5-5 rounds=25 independently_recomputed_usd=1.2440968 total=unknown
+real claude-opus-5-5:fast rounds=25 independently_recomputed_usd=2.4881936 total=unknown
+readback README.md bytes=5187 sha256=187d9ffc6851e45f2be0d38035fc32639815b87a6df445310ee87c90472ebf5b
+readback prices/2026-09-24.json bytes=20398 sha256=87a4eff90d0935676fd05e02331b71dc2d08dc2a111a0a47e034bbd757345ea5
+readback samples/local-usage.jsonl bytes=8677 sha256=17cef749d0d029887020cb968b56c2103d6cdca2b9697b08f360c66c5789dcab
+readback docs/handworked.md bytes=2392 sha256=40b57ae1a62358dc1aaf170dec6c85953368be184e7134220be3fa1d1ce94e55
+readback receipts/tests-green.txt bytes=3266 sha256=e10712dcf3cc812fdd5e5f45b562cb20d6e6a3254f4c25c6fac9feea438679f9
+INDEPENDENT_CHECK_OK item_assertions=560

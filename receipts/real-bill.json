@@ -1,0 +1,3990 @@
+{
+  "gpt-6-sol": {
+    "model": "gpt-6-sol",
+    "currency": "USD",
+    "scope": "direct API global token replay; not subscription charges",
+    "assumptions": [
+      "same recorded token counts, cache hits and attempts across models; counterfactual only"
+    ],
+    "rounds": [
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fd99fdfc87d0a158f24b08da0dde",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 24286,
+          "cached_input_tokens": 12928,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 247,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.022716",
+          "cached_input": "0.0025856",
+          "cache_write_input": "0",
+          "output": "0.00247",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0277716",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fda386b087d093d4696971bcd061",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 27805,
+          "cached_input_tokens": 24064,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 220,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.007482",
+          "cached_input": "0.0048128",
+          "cache_write_input": "0",
+          "output": "0.0022",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0144948",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdaba34c87d0af5719219101a824",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 29813,
+          "cached_input_tokens": 27648,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 270,
+          "reasoning_output_tokens": 10
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.00433",
+          "cached_input": "0.0055296",
+          "cache_write_input": "0",
+          "output": "0.0026",
+          "reasoning_output": "0.0001",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0125596",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdb8747887d095cd0767ec300476",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 41349,
+          "cached_input_tokens": 29696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 320,
+          "reasoning_output_tokens": 89
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.023306",
+          "cached_input": "0.0059392",
+          "cache_write_input": "0",
+          "output": "0.00231",
+          "reasoning_output": "0.00089",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0324452",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdcabd3087d0b607df6d45db21ed",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 54347,
+          "cached_input_tokens": 41216,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 296,
+          "reasoning_output_tokens": 83
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.026262",
+          "cached_input": "0.0082432",
+          "cache_write_input": "0",
+          "output": "0.00213",
+          "reasoning_output": "0.00083",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0374652",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fddb2f9c87d093e2247bbe6d6059",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 63151,
+          "cached_input_tokens": 54144,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 229,
+          "reasoning_output_tokens": 38
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.018014",
+          "cached_input": "0.0108288",
+          "cache_write_input": "0",
+          "output": "0.00191",
+          "reasoning_output": "0.00038",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0311328",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fde6e10c87d0936478dde28dd010",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 69374,
+          "cached_input_tokens": 62976,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 433,
+          "reasoning_output_tokens": 279
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.012796",
+          "cached_input": "0.0125952",
+          "cache_write_input": "0",
+          "output": "0.00154",
+          "reasoning_output": "0.00279",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0297212",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdfa4ea087d0b175228afc3d55f8",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 74529,
+          "cached_input_tokens": 69248,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 758,
+          "reasoning_output_tokens": 516
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.010562",
+          "cached_input": "0.0138496",
+          "cache_write_input": "0",
+          "output": "0.00242",
+          "reasoning_output": "0.00516",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0319916",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe18dc5487d0a58da7e522088189",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 79665,
+          "cached_input_tokens": 74368,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1987,
+          "reasoning_output_tokens": 428
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.010594",
+          "cached_input": "0.0148736",
+          "cache_write_input": "0",
+          "output": "0.01559",
+          "reasoning_output": "0.00428",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0453376",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe57fd1087d0b19e5bffa3dc9a4a",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 81708,
+          "cached_input_tokens": 79488,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4240,
+          "reasoning_output_tokens": 24
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.00444",
+          "cached_input": "0.0158976",
+          "cache_write_input": "0",
+          "output": "0.04216",
+          "reasoning_output": "0.00024",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0627376",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fedad57c87d0aee3f18e09d5759d",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 86006,
+          "cached_input_tokens": 81536,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 187,
+          "reasoning_output_tokens": 86
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.00894",
+          "cached_input": "0.0163072",
+          "cache_write_input": "0",
+          "output": "0.00101",
+          "reasoning_output": "0.00086",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0271172",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fee3bd8087d0adec5d642f023c6a",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 87057,
+          "cached_input_tokens": 85888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 255,
+          "reasoning_output_tokens": 11
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.002338",
+          "cached_input": "0.0171776",
+          "cache_write_input": "0",
+          "output": "0.00244",
+          "reasoning_output": "0.00011",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0220656",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3feeeefc087d0a558b0576214b112",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 91113,
+          "cached_input_tokens": 86912,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1607,
+          "reasoning_output_tokens": 516
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.008402",
+          "cached_input": "0.0173824",
+          "cache_write_input": "0",
+          "output": "0.01091",
+          "reasoning_output": "0.00516",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0418544",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff2223c887d08069deacb6bb4e72",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 92777,
+          "cached_input_tokens": 90880,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2892,
+          "reasoning_output_tokens": 11
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.003794",
+          "cached_input": "0.018176",
+          "cache_write_input": "0",
+          "output": "0.02881",
+          "reasoning_output": "0.00011",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.05089",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff7c661c87d0abfb6d7e3228dd3c",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 95984,
+          "cached_input_tokens": 92544,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1103,
+          "reasoning_output_tokens": 236
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.00688",
+          "cached_input": "0.0185088",
+          "cache_write_input": "0",
+          "output": "0.00867",
+          "reasoning_output": "0.00236",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0364188",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffa0325887d0a83875e155bdd222",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 97145,
+          "cached_input_tokens": 95744,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 627,
+          "reasoning_output_tokens": 516
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.002802",
+          "cached_input": "0.0191488",
+          "cache_write_input": "0",
+          "output": "0.00111",
+          "reasoning_output": "0.00516",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0282208",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffb67ff487d0a026d22b621db34c",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 98232,
+          "cached_input_tokens": 97024,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 731,
+          "reasoning_output_tokens": 404
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.002416",
+          "cached_input": "0.0194048",
+          "cache_write_input": "0",
+          "output": "0.00327",
+          "reasoning_output": "0.00404",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0291308",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffcf3fc487d0a91fcd9cdb783fd5",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 99205,
+          "cached_input_tokens": 98048,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1476,
+          "reasoning_output_tokens": 453
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.002314",
+          "cached_input": "0.0196096",
+          "cache_write_input": "0",
+          "output": "0.01023",
+          "reasoning_output": "0.00453",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0366836",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fffe5bc087d0998c117e9aad539c",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 103437,
+          "cached_input_tokens": 99072,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 340,
+          "reasoning_output_tokens": 107
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.00873",
+          "cached_input": "0.0198144",
+          "cache_write_input": "0",
+          "output": "0.00233",
+          "reasoning_output": "0.00107",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0319444",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4000c09a887d09827703d1570bae9",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 103929,
+          "cached_input_tokens": 103296,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 530,
+          "reasoning_output_tokens": 386
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.001266",
+          "cached_input": "0.0206592",
+          "cache_write_input": "0",
+          "output": "0.00144",
+          "reasoning_output": "0.00386",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0272252",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4001e4f9087d09475e668c749d2d1",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 104732,
+          "cached_input_tokens": 103808,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1193,
+          "reasoning_output_tokens": 132
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.001848",
+          "cached_input": "0.0207616",
+          "cache_write_input": "0",
+          "output": "0.01061",
+          "reasoning_output": "0.00132",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0345396",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4004707b087d0b958022abf68f608",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 106336,
+          "cached_input_tokens": 104576,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 626,
+          "reasoning_output_tokens": 292
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.00352",
+          "cached_input": "0.0209152",
+          "cache_write_input": "0",
+          "output": "0.00334",
+          "reasoning_output": "0.00292",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0306952",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4005cfaf487d09022e70ae9be1f24",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 107229,
+          "cached_input_tokens": 106112,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1161,
+          "reasoning_output_tokens": 516
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.002234",
+          "cached_input": "0.0212224",
+          "cache_write_input": "0",
+          "output": "0.00645",
+          "reasoning_output": "0.00516",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0350664",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab40083066887d0b798c85e7cc7a8e0",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 109023,
+          "cached_input_tokens": 107008,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 477,
+          "reasoning_output_tokens": 164
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.00403",
+          "cached_input": "0.0214016",
+          "cache_write_input": "0",
+          "output": "0.00313",
+          "reasoning_output": "0.00164",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0302016",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab400947cac87d0a566bc8855b6999b",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 109640,
+          "cached_input_tokens": 108800,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 460,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {
+          "input": "2",
+          "cached_input": "0.2",
+          "cache_write_input": "2.5",
+          "cache_write_1h_input": "unknown",
+          "output": "10",
+          "reasoning_output": "10"
+        },
+        "charges_usd": {
+          "input": "0.00168",
+          "cached_input": "0.02176",
+          "cache_write_input": "0",
+          "output": "0.0046",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.02804",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      }
+    ],
+    "charges_usd": {
+      "input": "0.201696",
+      "cached_input": "0.3874048",
+      "cache_write_input": "0",
+      "output": "0.17368",
+      "reasoning_output": "0.05297",
+      "tools": "unknown"
+    },
+    "known_subtotal_usd": "0.8157508",
+    "total_usd": "unknown",
+    "unknown": [
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fd99fdfc87d0a158f24b08da0dde: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fda386b087d093d4696971bcd061: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdaba34c87d0af5719219101a824: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdb8747887d095cd0767ec300476: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdcabd3087d0b607df6d45db21ed: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fddb2f9c87d093e2247bbe6d6059: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fde6e10c87d0936478dde28dd010: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdfa4ea087d0b175228afc3d55f8: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe18dc5487d0a58da7e522088189: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe57fd1087d0b19e5bffa3dc9a4a: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fedad57c87d0aee3f18e09d5759d: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fee3bd8087d0adec5d642f023c6a: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3feeeefc087d0a558b0576214b112: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff2223c887d08069deacb6bb4e72: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff7c661c87d0abfb6d7e3228dd3c: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffa0325887d0a83875e155bdd222: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffb67ff487d0a026d22b621db34c: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffcf3fc487d0a91fcd9cdb783fd5: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fffe5bc087d0998c117e9aad539c: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4000c09a887d09827703d1570bae9: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4001e4f9087d09475e668c749d2d1: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4004707b087d0b958022abf68f608: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4005cfaf487d09022e70ae9be1f24: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab40083066887d0b798c85e7cc7a8e0: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab400947cac87d0a566bc8855b6999b: tools: fee inventory/cost missing"
+    ]
+  },
+  "gpt-6-luna": {
+    "model": "gpt-6-luna",
+    "currency": "USD",
+    "scope": "direct API global token replay; not subscription charges",
+    "assumptions": [
+      "same recorded token counts, cache hits and attempts across models; counterfactual only"
+    ],
+    "rounds": [
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fd99fdfc87d0a158f24b08da0dde",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 24286,
+          "cached_input_tokens": 12928,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 247,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0011358",
+          "cached_input": "0.00012928",
+          "cache_write_input": "0",
+          "output": "0.0001235",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00138858",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fda386b087d093d4696971bcd061",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 27805,
+          "cached_input_tokens": 24064,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 220,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0003741",
+          "cached_input": "0.00024064",
+          "cache_write_input": "0",
+          "output": "0.00011",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00072474",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdaba34c87d0af5719219101a824",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 29813,
+          "cached_input_tokens": 27648,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 270,
+          "reasoning_output_tokens": 10
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0002165",
+          "cached_input": "0.00027648",
+          "cache_write_input": "0",
+          "output": "0.00013",
+          "reasoning_output": "0.000005",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00062798",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdb8747887d095cd0767ec300476",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 41349,
+          "cached_input_tokens": 29696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 320,
+          "reasoning_output_tokens": 89
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0011653",
+          "cached_input": "0.00029696",
+          "cache_write_input": "0",
+          "output": "0.0001155",
+          "reasoning_output": "0.0000445",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00162226",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdcabd3087d0b607df6d45db21ed",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 54347,
+          "cached_input_tokens": 41216,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 296,
+          "reasoning_output_tokens": 83
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0013131",
+          "cached_input": "0.00041216",
+          "cache_write_input": "0",
+          "output": "0.0001065",
+          "reasoning_output": "0.0000415",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00187326",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fddb2f9c87d093e2247bbe6d6059",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 63151,
+          "cached_input_tokens": 54144,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 229,
+          "reasoning_output_tokens": 38
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0009007",
+          "cached_input": "0.00054144",
+          "cache_write_input": "0",
+          "output": "0.0000955",
+          "reasoning_output": "0.000019",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00155664",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fde6e10c87d0936478dde28dd010",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 69374,
+          "cached_input_tokens": 62976,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 433,
+          "reasoning_output_tokens": 279
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0006398",
+          "cached_input": "0.00062976",
+          "cache_write_input": "0",
+          "output": "0.000077",
+          "reasoning_output": "0.0001395",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00148606",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdfa4ea087d0b175228afc3d55f8",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 74529,
+          "cached_input_tokens": 69248,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 758,
+          "reasoning_output_tokens": 516
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0005281",
+          "cached_input": "0.00069248",
+          "cache_write_input": "0",
+          "output": "0.000121",
+          "reasoning_output": "0.000258",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00159958",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe18dc5487d0a58da7e522088189",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 79665,
+          "cached_input_tokens": 74368,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1987,
+          "reasoning_output_tokens": 428
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0005297",
+          "cached_input": "0.00074368",
+          "cache_write_input": "0",
+          "output": "0.0007795",
+          "reasoning_output": "0.000214",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00226688",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe57fd1087d0b19e5bffa3dc9a4a",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 81708,
+          "cached_input_tokens": 79488,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4240,
+          "reasoning_output_tokens": 24
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.000222",
+          "cached_input": "0.00079488",
+          "cache_write_input": "0",
+          "output": "0.002108",
+          "reasoning_output": "0.000012",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00313688",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fedad57c87d0aee3f18e09d5759d",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 86006,
+          "cached_input_tokens": 81536,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 187,
+          "reasoning_output_tokens": 86
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.000447",
+          "cached_input": "0.00081536",
+          "cache_write_input": "0",
+          "output": "0.0000505",
+          "reasoning_output": "0.000043",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00135586",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fee3bd8087d0adec5d642f023c6a",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 87057,
+          "cached_input_tokens": 85888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 255,
+          "reasoning_output_tokens": 11
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0001169",
+          "cached_input": "0.00085888",
+          "cache_write_input": "0",
+          "output": "0.000122",
+          "reasoning_output": "0.0000055",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00110328",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3feeeefc087d0a558b0576214b112",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 91113,
+          "cached_input_tokens": 86912,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1607,
+          "reasoning_output_tokens": 516
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0004201",
+          "cached_input": "0.00086912",
+          "cache_write_input": "0",
+          "output": "0.0005455",
+          "reasoning_output": "0.000258",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00209272",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff2223c887d08069deacb6bb4e72",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 92777,
+          "cached_input_tokens": 90880,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2892,
+          "reasoning_output_tokens": 11
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0001897",
+          "cached_input": "0.0009088",
+          "cache_write_input": "0",
+          "output": "0.0014405",
+          "reasoning_output": "0.0000055",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0025445",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff7c661c87d0abfb6d7e3228dd3c",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 95984,
+          "cached_input_tokens": 92544,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1103,
+          "reasoning_output_tokens": 236
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.000344",
+          "cached_input": "0.00092544",
+          "cache_write_input": "0",
+          "output": "0.0004335",
+          "reasoning_output": "0.000118",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00182094",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffa0325887d0a83875e155bdd222",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 97145,
+          "cached_input_tokens": 95744,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 627,
+          "reasoning_output_tokens": 516
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0001401",
+          "cached_input": "0.00095744",
+          "cache_write_input": "0",
+          "output": "0.0000555",
+          "reasoning_output": "0.000258",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00141104",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffb67ff487d0a026d22b621db34c",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 98232,
+          "cached_input_tokens": 97024,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 731,
+          "reasoning_output_tokens": 404
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0001208",
+          "cached_input": "0.00097024",
+          "cache_write_input": "0",
+          "output": "0.0001635",
+          "reasoning_output": "0.000202",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00145654",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffcf3fc487d0a91fcd9cdb783fd5",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 99205,
+          "cached_input_tokens": 98048,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1476,
+          "reasoning_output_tokens": 453
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0001157",
+          "cached_input": "0.00098048",
+          "cache_write_input": "0",
+          "output": "0.0005115",
+          "reasoning_output": "0.0002265",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00183418",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fffe5bc087d0998c117e9aad539c",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 103437,
+          "cached_input_tokens": 99072,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 340,
+          "reasoning_output_tokens": 107
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0004365",
+          "cached_input": "0.00099072",
+          "cache_write_input": "0",
+          "output": "0.0001165",
+          "reasoning_output": "0.0000535",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00159722",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4000c09a887d09827703d1570bae9",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 103929,
+          "cached_input_tokens": 103296,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 530,
+          "reasoning_output_tokens": 386
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0000633",
+          "cached_input": "0.00103296",
+          "cache_write_input": "0",
+          "output": "0.000072",
+          "reasoning_output": "0.000193",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00136126",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4001e4f9087d09475e668c749d2d1",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 104732,
+          "cached_input_tokens": 103808,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1193,
+          "reasoning_output_tokens": 132
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0000924",
+          "cached_input": "0.00103808",
+          "cache_write_input": "0",
+          "output": "0.0005305",
+          "reasoning_output": "0.000066",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00172698",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4004707b087d0b958022abf68f608",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 106336,
+          "cached_input_tokens": 104576,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 626,
+          "reasoning_output_tokens": 292
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.000176",
+          "cached_input": "0.00104576",
+          "cache_write_input": "0",
+          "output": "0.000167",
+          "reasoning_output": "0.000146",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00153476",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4005cfaf487d09022e70ae9be1f24",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 107229,
+          "cached_input_tokens": 106112,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1161,
+          "reasoning_output_tokens": 516
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0001117",
+          "cached_input": "0.00106112",
+          "cache_write_input": "0",
+          "output": "0.0003225",
+          "reasoning_output": "0.000258",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00175332",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab40083066887d0b798c85e7cc7a8e0",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 109023,
+          "cached_input_tokens": 107008,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 477,
+          "reasoning_output_tokens": 164
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.0002015",
+          "cached_input": "0.00107008",
+          "cache_write_input": "0",
+          "output": "0.0001565",
+          "reasoning_output": "0.000082",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.00151008",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab400947cac87d0a566bc8855b6999b",
+        "original_model": "gpt-6-astra",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 109640,
+          "cached_input_tokens": 108800,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 460,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {
+          "input": "0.1",
+          "cached_input": "0.01",
+          "cache_write_input": "0.125",
+          "cache_write_1h_input": "unknown",
+          "output": "0.5",
+          "reasoning_output": "0.5"
+        },
+        "charges_usd": {
+          "input": "0.000084",
+          "cached_input": "0.001088",
+          "cache_write_input": "0",
+          "output": "0.00023",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.001402",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      }
+    ],
+    "charges_usd": {
+      "input": "0.0100848",
+      "cached_input": "0.01937024",
+      "cache_write_input": "0",
+      "output": "0.008684",
+      "reasoning_output": "0.0026485",
+      "tools": "unknown"
+    },
+    "known_subtotal_usd": "0.04078754",
+    "total_usd": "unknown",
+    "unknown": [
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fd99fdfc87d0a158f24b08da0dde: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fda386b087d093d4696971bcd061: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdaba34c87d0af5719219101a824: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdb8747887d095cd0767ec300476: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdcabd3087d0b607df6d45db21ed: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fddb2f9c87d093e2247bbe6d6059: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fde6e10c87d0936478dde28dd010: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdfa4ea087d0b175228afc3d55f8: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe18dc5487d0a58da7e522088189: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe57fd1087d0b19e5bffa3dc9a4a: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fedad57c87d0aee3f18e09d5759d: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fee3bd8087d0adec5d642f023c6a: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3feeeefc087d0a558b0576214b112: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff2223c887d08069deacb6bb4e72: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff7c661c87d0abfb6d7e3228dd3c: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffa0325887d0a83875e155bdd222: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffb67ff487d0a026d22b621db34c: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffcf3fc487d0a91fcd9cdb783fd5: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fffe5bc087d0998c117e9aad539c: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4000c09a887d09827703d1570bae9: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4001e4f9087d09475e668c749d2d1: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4004707b087d0b958022abf68f608: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4005cfaf487d09022e70ae9be1f24: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab40083066887d0b798c85e7cc7a8e0: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab400947cac87d0a566bc8855b6999b: tools: fee inventory/cost missing"
+    ]
+  },
+  "claude-opus-5-5": {
+    "model": "claude-opus-5-5",
+    "currency": "USD",
+    "scope": "direct API global token replay; not subscription charges",
+    "assumptions": [
+      "same recorded token counts, cache hits and attempts across models; counterfactual only"
+    ],
+    "rounds": [
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fd99fdfc87d0a158f24b08da0dde",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 24286,
+          "cached_input_tokens": 12928,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 247,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.045432",
+          "cached_input": "0.0025856",
+          "cache_write_input": "0",
+          "output": "0.00494",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0529576",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fda386b087d093d4696971bcd061",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 27805,
+          "cached_input_tokens": 24064,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 220,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.014964",
+          "cached_input": "0.0048128",
+          "cache_write_input": "0",
+          "output": "0.0044",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0241768",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdaba34c87d0af5719219101a824",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 29813,
+          "cached_input_tokens": 27648,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 270,
+          "reasoning_output_tokens": 10
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.00866",
+          "cached_input": "0.0055296",
+          "cache_write_input": "0",
+          "output": "0.0052",
+          "reasoning_output": "0.0002",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0195896",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdb8747887d095cd0767ec300476",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 41349,
+          "cached_input_tokens": 29696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 320,
+          "reasoning_output_tokens": 89
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.046612",
+          "cached_input": "0.0059392",
+          "cache_write_input": "0",
+          "output": "0.00462",
+          "reasoning_output": "0.00178",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0589512",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdcabd3087d0b607df6d45db21ed",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 54347,
+          "cached_input_tokens": 41216,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 296,
+          "reasoning_output_tokens": 83
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.052524",
+          "cached_input": "0.0082432",
+          "cache_write_input": "0",
+          "output": "0.00426",
+          "reasoning_output": "0.00166",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0666872",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fddb2f9c87d093e2247bbe6d6059",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 63151,
+          "cached_input_tokens": 54144,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 229,
+          "reasoning_output_tokens": 38
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.036028",
+          "cached_input": "0.0108288",
+          "cache_write_input": "0",
+          "output": "0.00382",
+          "reasoning_output": "0.00076",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0514368",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fde6e10c87d0936478dde28dd010",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 69374,
+          "cached_input_tokens": 62976,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 433,
+          "reasoning_output_tokens": 279
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.025592",
+          "cached_input": "0.0125952",
+          "cache_write_input": "0",
+          "output": "0.00308",
+          "reasoning_output": "0.00558",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0468472",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdfa4ea087d0b175228afc3d55f8",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 74529,
+          "cached_input_tokens": 69248,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 758,
+          "reasoning_output_tokens": 516
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.021124",
+          "cached_input": "0.0138496",
+          "cache_write_input": "0",
+          "output": "0.00484",
+          "reasoning_output": "0.01032",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0501336",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe18dc5487d0a58da7e522088189",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 79665,
+          "cached_input_tokens": 74368,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1987,
+          "reasoning_output_tokens": 428
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.021188",
+          "cached_input": "0.0148736",
+          "cache_write_input": "0",
+          "output": "0.03118",
+          "reasoning_output": "0.00856",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0758016",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe57fd1087d0b19e5bffa3dc9a4a",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 81708,
+          "cached_input_tokens": 79488,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4240,
+          "reasoning_output_tokens": 24
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.00888",
+          "cached_input": "0.0158976",
+          "cache_write_input": "0",
+          "output": "0.08432",
+          "reasoning_output": "0.00048",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.1095776",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fedad57c87d0aee3f18e09d5759d",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 86006,
+          "cached_input_tokens": 81536,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 187,
+          "reasoning_output_tokens": 86
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.01788",
+          "cached_input": "0.0163072",
+          "cache_write_input": "0",
+          "output": "0.00202",
+          "reasoning_output": "0.00172",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0379272",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fee3bd8087d0adec5d642f023c6a",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 87057,
+          "cached_input_tokens": 85888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 255,
+          "reasoning_output_tokens": 11
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.004676",
+          "cached_input": "0.0171776",
+          "cache_write_input": "0",
+          "output": "0.00488",
+          "reasoning_output": "0.00022",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0269536",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3feeeefc087d0a558b0576214b112",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 91113,
+          "cached_input_tokens": 86912,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1607,
+          "reasoning_output_tokens": 516
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.016804",
+          "cached_input": "0.0173824",
+          "cache_write_input": "0",
+          "output": "0.02182",
+          "reasoning_output": "0.01032",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0663264",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff2223c887d08069deacb6bb4e72",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 92777,
+          "cached_input_tokens": 90880,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2892,
+          "reasoning_output_tokens": 11
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.007588",
+          "cached_input": "0.018176",
+          "cache_write_input": "0",
+          "output": "0.05762",
+          "reasoning_output": "0.00022",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.083604",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff7c661c87d0abfb6d7e3228dd3c",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 95984,
+          "cached_input_tokens": 92544,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1103,
+          "reasoning_output_tokens": 236
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.01376",
+          "cached_input": "0.0185088",
+          "cache_write_input": "0",
+          "output": "0.01734",
+          "reasoning_output": "0.00472",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0543288",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffa0325887d0a83875e155bdd222",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 97145,
+          "cached_input_tokens": 95744,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 627,
+          "reasoning_output_tokens": 516
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.005604",
+          "cached_input": "0.0191488",
+          "cache_write_input": "0",
+          "output": "0.00222",
+          "reasoning_output": "0.01032",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0372928",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffb67ff487d0a026d22b621db34c",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 98232,
+          "cached_input_tokens": 97024,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 731,
+          "reasoning_output_tokens": 404
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.004832",
+          "cached_input": "0.0194048",
+          "cache_write_input": "0",
+          "output": "0.00654",
+          "reasoning_output": "0.00808",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0388568",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffcf3fc487d0a91fcd9cdb783fd5",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 99205,
+          "cached_input_tokens": 98048,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1476,
+          "reasoning_output_tokens": 453
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.004628",
+          "cached_input": "0.0196096",
+          "cache_write_input": "0",
+          "output": "0.02046",
+          "reasoning_output": "0.00906",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0537576",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fffe5bc087d0998c117e9aad539c",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 103437,
+          "cached_input_tokens": 99072,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 340,
+          "reasoning_output_tokens": 107
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.01746",
+          "cached_input": "0.0198144",
+          "cache_write_input": "0",
+          "output": "0.00466",
+          "reasoning_output": "0.00214",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0440744",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4000c09a887d09827703d1570bae9",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 103929,
+          "cached_input_tokens": 103296,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 530,
+          "reasoning_output_tokens": 386
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.002532",
+          "cached_input": "0.0206592",
+          "cache_write_input": "0",
+          "output": "0.00288",
+          "reasoning_output": "0.00772",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0337912",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4001e4f9087d09475e668c749d2d1",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 104732,
+          "cached_input_tokens": 103808,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1193,
+          "reasoning_output_tokens": 132
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.003696",
+          "cached_input": "0.0207616",
+          "cache_write_input": "0",
+          "output": "0.02122",
+          "reasoning_output": "0.00264",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0483176",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4004707b087d0b958022abf68f608",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 106336,
+          "cached_input_tokens": 104576,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 626,
+          "reasoning_output_tokens": 292
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.00704",
+          "cached_input": "0.0209152",
+          "cache_write_input": "0",
+          "output": "0.00668",
+          "reasoning_output": "0.00584",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0404752",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4005cfaf487d09022e70ae9be1f24",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 107229,
+          "cached_input_tokens": 106112,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1161,
+          "reasoning_output_tokens": 516
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.004468",
+          "cached_input": "0.0212224",
+          "cache_write_input": "0",
+          "output": "0.0129",
+          "reasoning_output": "0.01032",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0489104",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab40083066887d0b798c85e7cc7a8e0",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 109023,
+          "cached_input_tokens": 107008,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 477,
+          "reasoning_output_tokens": 164
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.00806",
+          "cached_input": "0.0214016",
+          "cache_write_input": "0",
+          "output": "0.00626",
+          "reasoning_output": "0.00328",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0390016",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab400947cac87d0a566bc8855b6999b",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 109640,
+          "cached_input_tokens": 108800,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 460,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.00336",
+          "cached_input": "0.02176",
+          "cache_write_input": "0",
+          "output": "0.0092",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.03432",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      }
+    ],
+    "charges_usd": {
+      "input": "0.403392",
+      "cached_input": "0.3874048",
+      "cache_write_input": "0",
+      "output": "0.34736",
+      "reasoning_output": "0.10594",
+      "tools": "unknown"
+    },
+    "known_subtotal_usd": "1.2440968",
+    "total_usd": "unknown",
+    "unknown": [
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fd99fdfc87d0a158f24b08da0dde: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fda386b087d093d4696971bcd061: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdaba34c87d0af5719219101a824: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdb8747887d095cd0767ec300476: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdcabd3087d0b607df6d45db21ed: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fddb2f9c87d093e2247bbe6d6059: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fde6e10c87d0936478dde28dd010: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdfa4ea087d0b175228afc3d55f8: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe18dc5487d0a58da7e522088189: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe57fd1087d0b19e5bffa3dc9a4a: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fedad57c87d0aee3f18e09d5759d: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fee3bd8087d0adec5d642f023c6a: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3feeeefc087d0a558b0576214b112: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff2223c887d08069deacb6bb4e72: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff7c661c87d0abfb6d7e3228dd3c: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffa0325887d0a83875e155bdd222: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffb67ff487d0a026d22b621db34c: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffcf3fc487d0a91fcd9cdb783fd5: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fffe5bc087d0998c117e9aad539c: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4000c09a887d09827703d1570bae9: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4001e4f9087d09475e668c749d2d1: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4004707b087d0b958022abf68f608: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4005cfaf487d09022e70ae9be1f24: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab40083066887d0b798c85e7cc7a8e0: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab400947cac87d0a566bc8855b6999b: tools: fee inventory/cost missing"
+    ]
+  },
+  "claude-opus-5-5:fast": {
+    "model": "claude-opus-5-5:fast",
+    "currency": "USD",
+    "scope": "direct API global token replay; not subscription charges",
+    "assumptions": [
+      "same recorded token counts, cache hits and attempts across models; counterfactual only"
+    ],
+    "rounds": [
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fd99fdfc87d0a158f24b08da0dde",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 24286,
+          "cached_input_tokens": 12928,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 247,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.090864",
+          "cached_input": "0.0051712",
+          "cache_write_input": "0",
+          "output": "0.00988",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.1059152",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fda386b087d093d4696971bcd061",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 27805,
+          "cached_input_tokens": 24064,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 220,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.029928",
+          "cached_input": "0.0096256",
+          "cache_write_input": "0",
+          "output": "0.0088",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0483536",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdaba34c87d0af5719219101a824",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 29813,
+          "cached_input_tokens": 27648,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 270,
+          "reasoning_output_tokens": 10
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.01732",
+          "cached_input": "0.0110592",
+          "cache_write_input": "0",
+          "output": "0.0104",
+          "reasoning_output": "0.0004",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0391792",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdb8747887d095cd0767ec300476",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 41349,
+          "cached_input_tokens": 29696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 320,
+          "reasoning_output_tokens": 89
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.093224",
+          "cached_input": "0.0118784",
+          "cache_write_input": "0",
+          "output": "0.00924",
+          "reasoning_output": "0.00356",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.1179024",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdcabd3087d0b607df6d45db21ed",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 54347,
+          "cached_input_tokens": 41216,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 296,
+          "reasoning_output_tokens": 83
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.105048",
+          "cached_input": "0.0164864",
+          "cache_write_input": "0",
+          "output": "0.00852",
+          "reasoning_output": "0.00332",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.1333744",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fddb2f9c87d093e2247bbe6d6059",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 63151,
+          "cached_input_tokens": 54144,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 229,
+          "reasoning_output_tokens": 38
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.072056",
+          "cached_input": "0.0216576",
+          "cache_write_input": "0",
+          "output": "0.00764",
+          "reasoning_output": "0.00152",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.1028736",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fde6e10c87d0936478dde28dd010",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 69374,
+          "cached_input_tokens": 62976,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 433,
+          "reasoning_output_tokens": 279
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.051184",
+          "cached_input": "0.0251904",
+          "cache_write_input": "0",
+          "output": "0.00616",
+          "reasoning_output": "0.01116",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0936944",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdfa4ea087d0b175228afc3d55f8",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 74529,
+          "cached_input_tokens": 69248,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 758,
+          "reasoning_output_tokens": 516
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.042248",
+          "cached_input": "0.0276992",
+          "cache_write_input": "0",
+          "output": "0.00968",
+          "reasoning_output": "0.02064",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.1002672",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe18dc5487d0a58da7e522088189",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 79665,
+          "cached_input_tokens": 74368,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1987,
+          "reasoning_output_tokens": 428
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.042376",
+          "cached_input": "0.0297472",
+          "cache_write_input": "0",
+          "output": "0.06236",
+          "reasoning_output": "0.01712",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.1516032",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe57fd1087d0b19e5bffa3dc9a4a",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 81708,
+          "cached_input_tokens": 79488,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4240,
+          "reasoning_output_tokens": 24
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.01776",
+          "cached_input": "0.0317952",
+          "cache_write_input": "0",
+          "output": "0.16864",
+          "reasoning_output": "0.00096",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.2191552",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fedad57c87d0aee3f18e09d5759d",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 86006,
+          "cached_input_tokens": 81536,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 187,
+          "reasoning_output_tokens": 86
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.03576",
+          "cached_input": "0.0326144",
+          "cache_write_input": "0",
+          "output": "0.00404",
+          "reasoning_output": "0.00344",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0758544",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fee3bd8087d0adec5d642f023c6a",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 87057,
+          "cached_input_tokens": 85888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 255,
+          "reasoning_output_tokens": 11
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.009352",
+          "cached_input": "0.0343552",
+          "cache_write_input": "0",
+          "output": "0.00976",
+          "reasoning_output": "0.00044",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0539072",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3feeeefc087d0a558b0576214b112",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 91113,
+          "cached_input_tokens": 86912,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1607,
+          "reasoning_output_tokens": 516
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.033608",
+          "cached_input": "0.0347648",
+          "cache_write_input": "0",
+          "output": "0.04364",
+          "reasoning_output": "0.02064",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.1326528",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff2223c887d08069deacb6bb4e72",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 92777,
+          "cached_input_tokens": 90880,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2892,
+          "reasoning_output_tokens": 11
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.015176",
+          "cached_input": "0.036352",
+          "cache_write_input": "0",
+          "output": "0.11524",
+          "reasoning_output": "0.00044",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.167208",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff7c661c87d0abfb6d7e3228dd3c",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 95984,
+          "cached_input_tokens": 92544,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1103,
+          "reasoning_output_tokens": 236
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.02752",
+          "cached_input": "0.0370176",
+          "cache_write_input": "0",
+          "output": "0.03468",
+          "reasoning_output": "0.00944",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.1086576",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffa0325887d0a83875e155bdd222",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 97145,
+          "cached_input_tokens": 95744,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 627,
+          "reasoning_output_tokens": 516
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.011208",
+          "cached_input": "0.0382976",
+          "cache_write_input": "0",
+          "output": "0.00444",
+          "reasoning_output": "0.02064",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0745856",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffb67ff487d0a026d22b621db34c",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 98232,
+          "cached_input_tokens": 97024,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 731,
+          "reasoning_output_tokens": 404
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.009664",
+          "cached_input": "0.0388096",
+          "cache_write_input": "0",
+          "output": "0.01308",
+          "reasoning_output": "0.01616",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0777136",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffcf3fc487d0a91fcd9cdb783fd5",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 99205,
+          "cached_input_tokens": 98048,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1476,
+          "reasoning_output_tokens": 453
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.009256",
+          "cached_input": "0.0392192",
+          "cache_write_input": "0",
+          "output": "0.04092",
+          "reasoning_output": "0.01812",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.1075152",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fffe5bc087d0998c117e9aad539c",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 103437,
+          "cached_input_tokens": 99072,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 340,
+          "reasoning_output_tokens": 107
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.03492",
+          "cached_input": "0.0396288",
+          "cache_write_input": "0",
+          "output": "0.00932",
+          "reasoning_output": "0.00428",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0881488",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4000c09a887d09827703d1570bae9",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 103929,
+          "cached_input_tokens": 103296,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 530,
+          "reasoning_output_tokens": 386
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.005064",
+          "cached_input": "0.0413184",
+          "cache_write_input": "0",
+          "output": "0.00576",
+          "reasoning_output": "0.01544",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0675824",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4001e4f9087d09475e668c749d2d1",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 104732,
+          "cached_input_tokens": 103808,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1193,
+          "reasoning_output_tokens": 132
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.007392",
+          "cached_input": "0.0415232",
+          "cache_write_input": "0",
+          "output": "0.04244",
+          "reasoning_output": "0.00528",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0966352",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4004707b087d0b958022abf68f608",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 106336,
+          "cached_input_tokens": 104576,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 626,
+          "reasoning_output_tokens": 292
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.01408",
+          "cached_input": "0.0418304",
+          "cache_write_input": "0",
+          "output": "0.01336",
+          "reasoning_output": "0.01168",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0809504",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4005cfaf487d09022e70ae9be1f24",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 107229,
+          "cached_input_tokens": 106112,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1161,
+          "reasoning_output_tokens": 516
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.008936",
+          "cached_input": "0.0424448",
+          "cache_write_input": "0",
+          "output": "0.0258",
+          "reasoning_output": "0.02064",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0978208",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab40083066887d0b798c85e7cc7a8e0",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 109023,
+          "cached_input_tokens": 107008,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 477,
+          "reasoning_output_tokens": 164
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.01612",
+          "cached_input": "0.0428032",
+          "cache_write_input": "0",
+          "output": "0.01252",
+          "reasoning_output": "0.00656",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.0780032",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab400947cac87d0a566bc8855b6999b",
+        "original_model": "gpt-6-astra",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "unknown",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 109640,
+          "cached_input_tokens": 108800,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 460,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.00672",
+          "cached_input": "0.04352",
+          "cache_write_input": "0",
+          "output": "0.0184",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.06864",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      }
+    ],
+    "charges_usd": {
+      "input": "0.806784",
+      "cached_input": "0.7748096",
+      "cache_write_input": "0",
+      "output": "0.69472",
+      "reasoning_output": "0.21188",
+      "tools": "unknown"
+    },
+    "known_subtotal_usd": "2.4881936",
+    "total_usd": "unknown",
+    "unknown": [
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fd99fdfc87d0a158f24b08da0dde: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fda386b087d093d4696971bcd061: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdaba34c87d0af5719219101a824: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdb8747887d095cd0767ec300476: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdcabd3087d0b607df6d45db21ed: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fddb2f9c87d093e2247bbe6d6059: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fde6e10c87d0936478dde28dd010: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdfa4ea087d0b175228afc3d55f8: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe18dc5487d0a58da7e522088189: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe57fd1087d0b19e5bffa3dc9a4a: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fedad57c87d0aee3f18e09d5759d: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fee3bd8087d0adec5d642f023c6a: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3feeeefc087d0a558b0576214b112: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff2223c887d08069deacb6bb4e72: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff7c661c87d0abfb6d7e3228dd3c: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffa0325887d0a83875e155bdd222: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffb67ff487d0a026d22b621db34c: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffcf3fc487d0a91fcd9cdb783fd5: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fffe5bc087d0998c117e9aad539c: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4000c09a887d09827703d1570bae9: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4001e4f9087d09475e668c749d2d1: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4004707b087d0b958022abf68f608: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4005cfaf487d09022e70ae9be1f24: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab40083066887d0b798c85e7cc7a8e0: tools: fee inventory/cost missing",
+      "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab400947cac87d0a566bc8855b6999b: tools: fee inventory/cost missing"
+    ]
+  }
+}

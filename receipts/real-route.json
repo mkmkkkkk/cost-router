@@ -1,0 +1,248 @@
+{
+  "slo": "latency<=30s,quality>=baseline",
+  "slo_status": "unknown",
+  "latency_seconds": "unknown",
+  "strategy": [
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fd99fdfc87d0a158f24b08da0dde",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fda386b087d093d4696971bcd061",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdaba34c87d0af5719219101a824",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdb8747887d095cd0767ec300476",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdcabd3087d0b607df6d45db21ed",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fddb2f9c87d093e2247bbe6d6059",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fde6e10c87d0936478dde28dd010",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fdfa4ea087d0b175228afc3d55f8",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe18dc5487d0a58da7e522088189",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fe57fd1087d0b19e5bffa3dc9a4a",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fedad57c87d0aee3f18e09d5759d",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fee3bd8087d0adec5d642f023c6a",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3feeeefc087d0a558b0576214b112",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff2223c887d08069deacb6bb4e72",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ff7c661c87d0abfb6d7e3228dd3c",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffa0325887d0a83875e155bdd222",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffb67ff487d0a026d22b621db34c",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3ffcf3fc487d0a91fcd9cdb783fd5",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab3fffe5bc087d0998c117e9aad539c",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4000c09a887d09827703d1570bae9",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4001e4f9087d09475e668c749d2d1",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4004707b087d0b958022abf68f608",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab4005cfaf487d09022e70ae9be1f24",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab40083066887d0b798c85e7cc7a8e0",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "01a0cf16-8216-7453-80ea-9ee9448d01dd:resp_0ca02881ff53dfe9016ab400947cac87d0a566bc8855b6999b",
+      "kind": "unknown",
+      "selected": "gpt-6-astra",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    }
+  ],
+  "baseline_total_usd": "unknown",
+  "routed_total_usd": "unknown",
+  "savings_usd": "unknown",
+  "assumptions": [
+    "sequential task; same token/cache/retry counts; evidence supplied by caller, not independently verified",
+    "switching providers/modes can invalidate caches; savings are replay scenarios, not realized savings"
+  ],
+  "unknown": [
+    "cached_input: usage or cached_input price unknown",
+    "input: usage or input price unknown",
+    "model price: gpt-6-astra",
+    "output: usage or output price unknown",
+    "reasoning_output: usage or reasoning_output price unknown",
+    "tools: fee inventory/cost missing",
+    "quality/latency: no evidence-backed complete route within task deadline"
+  ]
+}

@@ -1,0 +1,4 @@
+model,input_tokens,cached_input_tokens,cache_write_input_tokens,output_tokens,reasoning_output_tokens,cache_write_ttl,tool_cost_usd,kind,retry,status,id
+gpt-6-sol,10000,6000,2000,1000,400,5m,0,extract,false,failed,failed-attempt
+gpt-6-sol,10000,6000,2000,1000,400,5m,0,extract,true,completed,retry
+gpt-6-sol,10000,6000,2000,1000,400,5m,0,review,false,completed,final

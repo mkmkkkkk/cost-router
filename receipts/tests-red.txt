@@ -1,0 +1,21 @@
+test_cost_router (unittest.loader._FailedTest.test_cost_router) ... ERROR
+
+======================================================================
+ERROR: test_cost_router (unittest.loader._FailedTest.test_cost_router)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_cost_router
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/unittest/loader.py", line 433, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/unittest/loader.py", line 374, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "/Users/michaelmacmini/Documents/Workspace/cost-router/tests/test_cost_router.py", line 6, in <module>
+    from cost_router.core import bill, load_trace, route, normalize
+ModuleNotFoundError: No module named 'cost_router.core'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

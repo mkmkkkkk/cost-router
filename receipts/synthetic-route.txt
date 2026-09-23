@@ -1,0 +1,7 @@
+snapshot=2026-09-24 models=4 price_fields_known=44/48 rows=3
+failed-attempt [extract] gpt-6-sol: retain original: no task-feasible quality and latency evidence; scenario=gpt-6-luna scenario_savings_usd=0.01919 (cost only)
+retry [extract] gpt-6-sol: retain original: no task-feasible quality and latency evidence; scenario=gpt-6-luna scenario_savings_usd=0.01919 (cost only)
+final [review] gpt-6-sol: retain original: no task-feasible quality and latency evidence; scenario=gpt-6-luna scenario_savings_usd=0.01919 (cost only)
+baseline=0.0606 routed=0.0606 savings_usd=0 slo=unknown latency_seconds=unknown
+unknown: quality/latency: no evidence-backed complete route within task deadline
+assumption: sequential task; supplied evidence; fixed tokens/cache/retries; cache invalidation not measured

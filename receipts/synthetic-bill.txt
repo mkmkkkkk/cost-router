@@ -1,0 +1,19 @@
+snapshot=2026-09-24 models=4 price_fields_known=44/48 rows=3
+USD gpt-6-sol=0.0606 (known=0.0606) | gpt-6-luna=0.00303 (known=0.00303) | claude-opus-5-5=0.1176 (known=0.1176) | claude-opus-5-5:fast=0.2352 (known=0.2352)
+gpt-6-sol failed-attempt tier=short retry=False status=failed input=0.004 cached_input=0.0012 cache_write_input=0.005 output=0.006 reasoning_output=0.004 tools=0 total=0.0202
+gpt-6-sol retry tier=short retry=True status=completed input=0.004 cached_input=0.0012 cache_write_input=0.005 output=0.006 reasoning_output=0.004 tools=0 total=0.0202
+gpt-6-sol final tier=short retry=False status=completed input=0.004 cached_input=0.0012 cache_write_input=0.005 output=0.006 reasoning_output=0.004 tools=0 total=0.0202
+unknown[gpt-6-sol]: none
+gpt-6-luna failed-attempt tier=short retry=False status=failed input=0.0002 cached_input=0.00006 cache_write_input=0.00025 output=0.0003 reasoning_output=0.0002 tools=0 total=0.00101
+gpt-6-luna retry tier=short retry=True status=completed input=0.0002 cached_input=0.00006 cache_write_input=0.00025 output=0.0003 reasoning_output=0.0002 tools=0 total=0.00101
+gpt-6-luna final tier=short retry=False status=completed input=0.0002 cached_input=0.00006 cache_write_input=0.00025 output=0.0003 reasoning_output=0.0002 tools=0 total=0.00101
+unknown[gpt-6-luna]: none
+claude-opus-5-5 failed-attempt tier=short retry=False status=failed input=0.008 cached_input=0.0012 cache_write_input=0.01 output=0.012 reasoning_output=0.008 tools=0 total=0.0392
+claude-opus-5-5 retry tier=short retry=True status=completed input=0.008 cached_input=0.0012 cache_write_input=0.01 output=0.012 reasoning_output=0.008 tools=0 total=0.0392
+claude-opus-5-5 final tier=short retry=False status=completed input=0.008 cached_input=0.0012 cache_write_input=0.01 output=0.012 reasoning_output=0.008 tools=0 total=0.0392
+unknown[claude-opus-5-5]: none
+claude-opus-5-5:fast failed-attempt tier=short retry=False status=failed input=0.016 cached_input=0.0024 cache_write_input=0.02 output=0.024 reasoning_output=0.016 tools=0 total=0.0784
+claude-opus-5-5:fast retry tier=short retry=True status=completed input=0.016 cached_input=0.0024 cache_write_input=0.02 output=0.024 reasoning_output=0.016 tools=0 total=0.0784
+claude-opus-5-5:fast final tier=short retry=False status=completed input=0.016 cached_input=0.0024 cache_write_input=0.02 output=0.024 reasoning_output=0.016 tools=0 total=0.0784
+unknown[claude-opus-5-5:fast]: none
+assumption: same token counts/cache/retries; API cost scenarios, not subscription invoices
