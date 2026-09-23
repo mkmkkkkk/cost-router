@@ -1,0 +1,3808 @@
+{
+  "gpt-6-sol": {
+    "model": "gpt-6-sol",
+    "currency": "USD",
+    "scope": "direct API global token replay; not subscription charges",
+    "assumptions": [
+      "same recorded token counts, cache hits and attempts across models; counterfactual only"
+    ],
+    "rounds": [
+      {
+        "id": "line-1",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 13292519,
+          "cached_input_tokens": 12556416,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 51777,
+          "reasoning_output_tokens": 7663
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-2",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 11757185,
+          "cached_input_tokens": 11230720,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 49038,
+          "reasoning_output_tokens": 7262
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-3",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 564956,
+          "cached_input_tokens": 527232,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6251,
+          "reasoning_output_tokens": 885
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-4",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 4363186,
+          "cached_input_tokens": 4235648,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 20442,
+          "reasoning_output_tokens": 6931
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-5",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 10497582,
+          "cached_input_tokens": 9980800,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 44522,
+          "reasoning_output_tokens": 6604
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-6",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 6782282,
+          "cached_input_tokens": 6458624,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 33085,
+          "reasoning_output_tokens": 4532
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-7",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 2039749,
+          "cached_input_tokens": 1788032,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7593,
+          "reasoning_output_tokens": 1041
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-8",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 742616,
+          "cached_input_tokens": 726528,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3123,
+          "reasoning_output_tokens": 644
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-9",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 5714313,
+          "cached_input_tokens": 5402752,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 30075,
+          "reasoning_output_tokens": 4232
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-10",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 176813,
+          "cached_input_tokens": 141824,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2201,
+          "reasoning_output_tokens": 198
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-11",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 265446,
+          "cached_input_tokens": 230912,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2140,
+          "reasoning_output_tokens": 204
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-12",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 2720542,
+          "cached_input_tokens": 2559488,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 19417,
+          "reasoning_output_tokens": 2487
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-13",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 38396,
+          "cached_input_tokens": 24320,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 292,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-14",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 3967389,
+          "cached_input_tokens": 3789696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 26520,
+          "reasoning_output_tokens": 3842
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-15",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 2024051,
+          "cached_input_tokens": 1872384,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 15736,
+          "reasoning_output_tokens": 2005
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-16",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 19072,
+          "cached_input_tokens": 12160,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 213,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-17",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 833291,
+          "cached_input_tokens": 764416,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 5823,
+          "reasoning_output_tokens": 296
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-18",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 2092101,
+          "cached_input_tokens": 1953280,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2124,
+          "reasoning_output_tokens": 617
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-19",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 1249640,
+          "cached_input_tokens": 1177600,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2706,
+          "reasoning_output_tokens": 433
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-20",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 9793612,
+          "cached_input_tokens": 9717760,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 30529,
+          "reasoning_output_tokens": 15072
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-21",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 5020722,
+          "cached_input_tokens": 4910592,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 26591,
+          "reasoning_output_tokens": 6334
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-22",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 778602,
+          "cached_input_tokens": 705024,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4072,
+          "reasoning_output_tokens": 885
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-23",
+        "original_model": "unknown",
+        "model": "gpt-6-sol",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 16344389,
+          "cached_input_tokens": 15918464,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 12455,
+          "reasoning_output_tokens": 4361
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      }
+    ],
+    "charges_usd": {
+      "input": "unknown",
+      "cached_input": "unknown",
+      "cache_write_input": "0",
+      "output": "unknown",
+      "reasoning_output": "unknown",
+      "tools": "unknown"
+    },
+    "known_subtotal_usd": "0",
+    "total_usd": "unknown",
+    "unknown": [
+      "line-1: context: aggregate usage lacks per-request context lengths",
+      "line-1: input: usage or input price unknown",
+      "line-1: cached_input: usage or cached_input price unknown",
+      "line-1: output: usage or output price unknown",
+      "line-1: reasoning_output: usage or reasoning_output price unknown",
+      "line-1: tools: fee inventory/cost missing",
+      "line-2: context: aggregate usage lacks per-request context lengths",
+      "line-2: input: usage or input price unknown",
+      "line-2: cached_input: usage or cached_input price unknown",
+      "line-2: output: usage or output price unknown",
+      "line-2: reasoning_output: usage or reasoning_output price unknown",
+      "line-2: tools: fee inventory/cost missing",
+      "line-3: context: aggregate usage lacks per-request context lengths",
+      "line-3: input: usage or input price unknown",
+      "line-3: cached_input: usage or cached_input price unknown",
+      "line-3: output: usage or output price unknown",
+      "line-3: reasoning_output: usage or reasoning_output price unknown",
+      "line-3: tools: fee inventory/cost missing",
+      "line-4: context: aggregate usage lacks per-request context lengths",
+      "line-4: input: usage or input price unknown",
+      "line-4: cached_input: usage or cached_input price unknown",
+      "line-4: output: usage or output price unknown",
+      "line-4: reasoning_output: usage or reasoning_output price unknown",
+      "line-4: tools: fee inventory/cost missing",
+      "line-5: context: aggregate usage lacks per-request context lengths",
+      "line-5: input: usage or input price unknown",
+      "line-5: cached_input: usage or cached_input price unknown",
+      "line-5: output: usage or output price unknown",
+      "line-5: reasoning_output: usage or reasoning_output price unknown",
+      "line-5: tools: fee inventory/cost missing",
+      "line-6: context: aggregate usage lacks per-request context lengths",
+      "line-6: input: usage or input price unknown",
+      "line-6: cached_input: usage or cached_input price unknown",
+      "line-6: output: usage or output price unknown",
+      "line-6: reasoning_output: usage or reasoning_output price unknown",
+      "line-6: tools: fee inventory/cost missing",
+      "line-7: context: aggregate usage lacks per-request context lengths",
+      "line-7: input: usage or input price unknown",
+      "line-7: cached_input: usage or cached_input price unknown",
+      "line-7: output: usage or output price unknown",
+      "line-7: reasoning_output: usage or reasoning_output price unknown",
+      "line-7: tools: fee inventory/cost missing",
+      "line-8: context: aggregate usage lacks per-request context lengths",
+      "line-8: input: usage or input price unknown",
+      "line-8: cached_input: usage or cached_input price unknown",
+      "line-8: output: usage or output price unknown",
+      "line-8: reasoning_output: usage or reasoning_output price unknown",
+      "line-8: tools: fee inventory/cost missing",
+      "line-9: context: aggregate usage lacks per-request context lengths",
+      "line-9: input: usage or input price unknown",
+      "line-9: cached_input: usage or cached_input price unknown",
+      "line-9: output: usage or output price unknown",
+      "line-9: reasoning_output: usage or reasoning_output price unknown",
+      "line-9: tools: fee inventory/cost missing",
+      "line-10: context: aggregate usage lacks per-request context lengths",
+      "line-10: input: usage or input price unknown",
+      "line-10: cached_input: usage or cached_input price unknown",
+      "line-10: output: usage or output price unknown",
+      "line-10: reasoning_output: usage or reasoning_output price unknown",
+      "line-10: tools: fee inventory/cost missing",
+      "line-11: context: aggregate usage lacks per-request context lengths",
+      "line-11: input: usage or input price unknown",
+      "line-11: cached_input: usage or cached_input price unknown",
+      "line-11: output: usage or output price unknown",
+      "line-11: reasoning_output: usage or reasoning_output price unknown",
+      "line-11: tools: fee inventory/cost missing",
+      "line-12: context: aggregate usage lacks per-request context lengths",
+      "line-12: input: usage or input price unknown",
+      "line-12: cached_input: usage or cached_input price unknown",
+      "line-12: output: usage or output price unknown",
+      "line-12: reasoning_output: usage or reasoning_output price unknown",
+      "line-12: tools: fee inventory/cost missing",
+      "line-13: context: aggregate usage lacks per-request context lengths",
+      "line-13: input: usage or input price unknown",
+      "line-13: cached_input: usage or cached_input price unknown",
+      "line-13: output: usage or output price unknown",
+      "line-13: tools: fee inventory/cost missing",
+      "line-14: context: aggregate usage lacks per-request context lengths",
+      "line-14: input: usage or input price unknown",
+      "line-14: cached_input: usage or cached_input price unknown",
+      "line-14: output: usage or output price unknown",
+      "line-14: reasoning_output: usage or reasoning_output price unknown",
+      "line-14: tools: fee inventory/cost missing",
+      "line-15: context: aggregate usage lacks per-request context lengths",
+      "line-15: input: usage or input price unknown",
+      "line-15: cached_input: usage or cached_input price unknown",
+      "line-15: output: usage or output price unknown",
+      "line-15: reasoning_output: usage or reasoning_output price unknown",
+      "line-15: tools: fee inventory/cost missing",
+      "line-16: context: aggregate usage lacks per-request context lengths",
+      "line-16: input: usage or input price unknown",
+      "line-16: cached_input: usage or cached_input price unknown",
+      "line-16: output: usage or output price unknown",
+      "line-16: tools: fee inventory/cost missing",
+      "line-17: context: aggregate usage lacks per-request context lengths",
+      "line-17: input: usage or input price unknown",
+      "line-17: cached_input: usage or cached_input price unknown",
+      "line-17: output: usage or output price unknown",
+      "line-17: reasoning_output: usage or reasoning_output price unknown",
+      "line-17: tools: fee inventory/cost missing",
+      "line-18: context: aggregate usage lacks per-request context lengths",
+      "line-18: input: usage or input price unknown",
+      "line-18: cached_input: usage or cached_input price unknown",
+      "line-18: output: usage or output price unknown",
+      "line-18: reasoning_output: usage or reasoning_output price unknown",
+      "line-18: tools: fee inventory/cost missing",
+      "line-19: context: aggregate usage lacks per-request context lengths",
+      "line-19: input: usage or input price unknown",
+      "line-19: cached_input: usage or cached_input price unknown",
+      "line-19: output: usage or output price unknown",
+      "line-19: reasoning_output: usage or reasoning_output price unknown",
+      "line-19: tools: fee inventory/cost missing",
+      "line-20: context: aggregate usage lacks per-request context lengths",
+      "line-20: input: usage or input price unknown",
+      "line-20: cached_input: usage or cached_input price unknown",
+      "line-20: output: usage or output price unknown",
+      "line-20: reasoning_output: usage or reasoning_output price unknown",
+      "line-20: tools: fee inventory/cost missing",
+      "line-21: context: aggregate usage lacks per-request context lengths",
+      "line-21: input: usage or input price unknown",
+      "line-21: cached_input: usage or cached_input price unknown",
+      "line-21: output: usage or output price unknown",
+      "line-21: reasoning_output: usage or reasoning_output price unknown",
+      "line-21: tools: fee inventory/cost missing",
+      "line-22: context: aggregate usage lacks per-request context lengths",
+      "line-22: input: usage or input price unknown",
+      "line-22: cached_input: usage or cached_input price unknown",
+      "line-22: output: usage or output price unknown",
+      "line-22: reasoning_output: usage or reasoning_output price unknown",
+      "line-22: tools: fee inventory/cost missing",
+      "line-23: context: aggregate usage lacks per-request context lengths",
+      "line-23: input: usage or input price unknown",
+      "line-23: cached_input: usage or cached_input price unknown",
+      "line-23: output: usage or output price unknown",
+      "line-23: reasoning_output: usage or reasoning_output price unknown",
+      "line-23: tools: fee inventory/cost missing"
+    ]
+  },
+  "gpt-6-luna": {
+    "model": "gpt-6-luna",
+    "currency": "USD",
+    "scope": "direct API global token replay; not subscription charges",
+    "assumptions": [
+      "same recorded token counts, cache hits and attempts across models; counterfactual only"
+    ],
+    "rounds": [
+      {
+        "id": "line-1",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 13292519,
+          "cached_input_tokens": 12556416,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 51777,
+          "reasoning_output_tokens": 7663
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-2",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 11757185,
+          "cached_input_tokens": 11230720,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 49038,
+          "reasoning_output_tokens": 7262
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-3",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 564956,
+          "cached_input_tokens": 527232,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6251,
+          "reasoning_output_tokens": 885
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-4",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 4363186,
+          "cached_input_tokens": 4235648,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 20442,
+          "reasoning_output_tokens": 6931
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-5",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 10497582,
+          "cached_input_tokens": 9980800,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 44522,
+          "reasoning_output_tokens": 6604
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-6",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 6782282,
+          "cached_input_tokens": 6458624,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 33085,
+          "reasoning_output_tokens": 4532
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-7",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 2039749,
+          "cached_input_tokens": 1788032,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7593,
+          "reasoning_output_tokens": 1041
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-8",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 742616,
+          "cached_input_tokens": 726528,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3123,
+          "reasoning_output_tokens": 644
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-9",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 5714313,
+          "cached_input_tokens": 5402752,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 30075,
+          "reasoning_output_tokens": 4232
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-10",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 176813,
+          "cached_input_tokens": 141824,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2201,
+          "reasoning_output_tokens": 198
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-11",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 265446,
+          "cached_input_tokens": 230912,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2140,
+          "reasoning_output_tokens": 204
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-12",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 2720542,
+          "cached_input_tokens": 2559488,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 19417,
+          "reasoning_output_tokens": 2487
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-13",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 38396,
+          "cached_input_tokens": 24320,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 292,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-14",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 3967389,
+          "cached_input_tokens": 3789696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 26520,
+          "reasoning_output_tokens": 3842
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-15",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 2024051,
+          "cached_input_tokens": 1872384,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 15736,
+          "reasoning_output_tokens": 2005
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-16",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 19072,
+          "cached_input_tokens": 12160,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 213,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-17",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 833291,
+          "cached_input_tokens": 764416,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 5823,
+          "reasoning_output_tokens": 296
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-18",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 2092101,
+          "cached_input_tokens": 1953280,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2124,
+          "reasoning_output_tokens": 617
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-19",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 1249640,
+          "cached_input_tokens": 1177600,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2706,
+          "reasoning_output_tokens": 433
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-20",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 9793612,
+          "cached_input_tokens": 9717760,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 30529,
+          "reasoning_output_tokens": 15072
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-21",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 5020722,
+          "cached_input_tokens": 4910592,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 26591,
+          "reasoning_output_tokens": 6334
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-22",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 778602,
+          "cached_input_tokens": 705024,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4072,
+          "reasoning_output_tokens": 885
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-23",
+        "original_model": "unknown",
+        "model": "gpt-6-luna",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "unknown",
+        "usage": {
+          "input_tokens": 16344389,
+          "cached_input_tokens": 15918464,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 12455,
+          "reasoning_output_tokens": 4361
+        },
+        "rates_usd_per_million": {},
+        "charges_usd": {
+          "input": "unknown",
+          "cached_input": "unknown",
+          "cache_write_input": "0",
+          "output": "unknown",
+          "reasoning_output": "unknown",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0",
+        "total_usd": "unknown",
+        "unknown": [
+          "context: aggregate usage lacks per-request context lengths",
+          "input: usage or input price unknown",
+          "cached_input: usage or cached_input price unknown",
+          "output: usage or output price unknown",
+          "reasoning_output: usage or reasoning_output price unknown",
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      }
+    ],
+    "charges_usd": {
+      "input": "unknown",
+      "cached_input": "unknown",
+      "cache_write_input": "0",
+      "output": "unknown",
+      "reasoning_output": "unknown",
+      "tools": "unknown"
+    },
+    "known_subtotal_usd": "0",
+    "total_usd": "unknown",
+    "unknown": [
+      "line-1: context: aggregate usage lacks per-request context lengths",
+      "line-1: input: usage or input price unknown",
+      "line-1: cached_input: usage or cached_input price unknown",
+      "line-1: output: usage or output price unknown",
+      "line-1: reasoning_output: usage or reasoning_output price unknown",
+      "line-1: tools: fee inventory/cost missing",
+      "line-2: context: aggregate usage lacks per-request context lengths",
+      "line-2: input: usage or input price unknown",
+      "line-2: cached_input: usage or cached_input price unknown",
+      "line-2: output: usage or output price unknown",
+      "line-2: reasoning_output: usage or reasoning_output price unknown",
+      "line-2: tools: fee inventory/cost missing",
+      "line-3: context: aggregate usage lacks per-request context lengths",
+      "line-3: input: usage or input price unknown",
+      "line-3: cached_input: usage or cached_input price unknown",
+      "line-3: output: usage or output price unknown",
+      "line-3: reasoning_output: usage or reasoning_output price unknown",
+      "line-3: tools: fee inventory/cost missing",
+      "line-4: context: aggregate usage lacks per-request context lengths",
+      "line-4: input: usage or input price unknown",
+      "line-4: cached_input: usage or cached_input price unknown",
+      "line-4: output: usage or output price unknown",
+      "line-4: reasoning_output: usage or reasoning_output price unknown",
+      "line-4: tools: fee inventory/cost missing",
+      "line-5: context: aggregate usage lacks per-request context lengths",
+      "line-5: input: usage or input price unknown",
+      "line-5: cached_input: usage or cached_input price unknown",
+      "line-5: output: usage or output price unknown",
+      "line-5: reasoning_output: usage or reasoning_output price unknown",
+      "line-5: tools: fee inventory/cost missing",
+      "line-6: context: aggregate usage lacks per-request context lengths",
+      "line-6: input: usage or input price unknown",
+      "line-6: cached_input: usage or cached_input price unknown",
+      "line-6: output: usage or output price unknown",
+      "line-6: reasoning_output: usage or reasoning_output price unknown",
+      "line-6: tools: fee inventory/cost missing",
+      "line-7: context: aggregate usage lacks per-request context lengths",
+      "line-7: input: usage or input price unknown",
+      "line-7: cached_input: usage or cached_input price unknown",
+      "line-7: output: usage or output price unknown",
+      "line-7: reasoning_output: usage or reasoning_output price unknown",
+      "line-7: tools: fee inventory/cost missing",
+      "line-8: context: aggregate usage lacks per-request context lengths",
+      "line-8: input: usage or input price unknown",
+      "line-8: cached_input: usage or cached_input price unknown",
+      "line-8: output: usage or output price unknown",
+      "line-8: reasoning_output: usage or reasoning_output price unknown",
+      "line-8: tools: fee inventory/cost missing",
+      "line-9: context: aggregate usage lacks per-request context lengths",
+      "line-9: input: usage or input price unknown",
+      "line-9: cached_input: usage or cached_input price unknown",
+      "line-9: output: usage or output price unknown",
+      "line-9: reasoning_output: usage or reasoning_output price unknown",
+      "line-9: tools: fee inventory/cost missing",
+      "line-10: context: aggregate usage lacks per-request context lengths",
+      "line-10: input: usage or input price unknown",
+      "line-10: cached_input: usage or cached_input price unknown",
+      "line-10: output: usage or output price unknown",
+      "line-10: reasoning_output: usage or reasoning_output price unknown",
+      "line-10: tools: fee inventory/cost missing",
+      "line-11: context: aggregate usage lacks per-request context lengths",
+      "line-11: input: usage or input price unknown",
+      "line-11: cached_input: usage or cached_input price unknown",
+      "line-11: output: usage or output price unknown",
+      "line-11: reasoning_output: usage or reasoning_output price unknown",
+      "line-11: tools: fee inventory/cost missing",
+      "line-12: context: aggregate usage lacks per-request context lengths",
+      "line-12: input: usage or input price unknown",
+      "line-12: cached_input: usage or cached_input price unknown",
+      "line-12: output: usage or output price unknown",
+      "line-12: reasoning_output: usage or reasoning_output price unknown",
+      "line-12: tools: fee inventory/cost missing",
+      "line-13: context: aggregate usage lacks per-request context lengths",
+      "line-13: input: usage or input price unknown",
+      "line-13: cached_input: usage or cached_input price unknown",
+      "line-13: output: usage or output price unknown",
+      "line-13: tools: fee inventory/cost missing",
+      "line-14: context: aggregate usage lacks per-request context lengths",
+      "line-14: input: usage or input price unknown",
+      "line-14: cached_input: usage or cached_input price unknown",
+      "line-14: output: usage or output price unknown",
+      "line-14: reasoning_output: usage or reasoning_output price unknown",
+      "line-14: tools: fee inventory/cost missing",
+      "line-15: context: aggregate usage lacks per-request context lengths",
+      "line-15: input: usage or input price unknown",
+      "line-15: cached_input: usage or cached_input price unknown",
+      "line-15: output: usage or output price unknown",
+      "line-15: reasoning_output: usage or reasoning_output price unknown",
+      "line-15: tools: fee inventory/cost missing",
+      "line-16: context: aggregate usage lacks per-request context lengths",
+      "line-16: input: usage or input price unknown",
+      "line-16: cached_input: usage or cached_input price unknown",
+      "line-16: output: usage or output price unknown",
+      "line-16: tools: fee inventory/cost missing",
+      "line-17: context: aggregate usage lacks per-request context lengths",
+      "line-17: input: usage or input price unknown",
+      "line-17: cached_input: usage or cached_input price unknown",
+      "line-17: output: usage or output price unknown",
+      "line-17: reasoning_output: usage or reasoning_output price unknown",
+      "line-17: tools: fee inventory/cost missing",
+      "line-18: context: aggregate usage lacks per-request context lengths",
+      "line-18: input: usage or input price unknown",
+      "line-18: cached_input: usage or cached_input price unknown",
+      "line-18: output: usage or output price unknown",
+      "line-18: reasoning_output: usage or reasoning_output price unknown",
+      "line-18: tools: fee inventory/cost missing",
+      "line-19: context: aggregate usage lacks per-request context lengths",
+      "line-19: input: usage or input price unknown",
+      "line-19: cached_input: usage or cached_input price unknown",
+      "line-19: output: usage or output price unknown",
+      "line-19: reasoning_output: usage or reasoning_output price unknown",
+      "line-19: tools: fee inventory/cost missing",
+      "line-20: context: aggregate usage lacks per-request context lengths",
+      "line-20: input: usage or input price unknown",
+      "line-20: cached_input: usage or cached_input price unknown",
+      "line-20: output: usage or output price unknown",
+      "line-20: reasoning_output: usage or reasoning_output price unknown",
+      "line-20: tools: fee inventory/cost missing",
+      "line-21: context: aggregate usage lacks per-request context lengths",
+      "line-21: input: usage or input price unknown",
+      "line-21: cached_input: usage or cached_input price unknown",
+      "line-21: output: usage or output price unknown",
+      "line-21: reasoning_output: usage or reasoning_output price unknown",
+      "line-21: tools: fee inventory/cost missing",
+      "line-22: context: aggregate usage lacks per-request context lengths",
+      "line-22: input: usage or input price unknown",
+      "line-22: cached_input: usage or cached_input price unknown",
+      "line-22: output: usage or output price unknown",
+      "line-22: reasoning_output: usage or reasoning_output price unknown",
+      "line-22: tools: fee inventory/cost missing",
+      "line-23: context: aggregate usage lacks per-request context lengths",
+      "line-23: input: usage or input price unknown",
+      "line-23: cached_input: usage or cached_input price unknown",
+      "line-23: output: usage or output price unknown",
+      "line-23: reasoning_output: usage or reasoning_output price unknown",
+      "line-23: tools: fee inventory/cost missing"
+    ]
+  },
+  "claude-opus-5-5": {
+    "model": "claude-opus-5-5",
+    "currency": "USD",
+    "scope": "direct API global token replay; not subscription charges",
+    "assumptions": [
+      "same recorded token counts, cache hits and attempts across models; counterfactual only"
+    ],
+    "rounds": [
+      {
+        "id": "line-1",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 13292519,
+          "cached_input_tokens": 12556416,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 51777,
+          "reasoning_output_tokens": 7663
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "2.944412",
+          "cached_input": "2.5112832",
+          "cache_write_input": "0",
+          "output": "0.88228",
+          "reasoning_output": "0.15326",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "6.4912352",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-2",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 11757185,
+          "cached_input_tokens": 11230720,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 49038,
+          "reasoning_output_tokens": 7262
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "2.10586",
+          "cached_input": "2.246144",
+          "cache_write_input": "0",
+          "output": "0.83552",
+          "reasoning_output": "0.14524",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "5.332764",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-3",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 564956,
+          "cached_input_tokens": 527232,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6251,
+          "reasoning_output_tokens": 885
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.150896",
+          "cached_input": "0.1054464",
+          "cache_write_input": "0",
+          "output": "0.10732",
+          "reasoning_output": "0.0177",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.3813624",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-4",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 4363186,
+          "cached_input_tokens": 4235648,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 20442,
+          "reasoning_output_tokens": 6931
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.510152",
+          "cached_input": "0.8471296",
+          "cache_write_input": "0",
+          "output": "0.27022",
+          "reasoning_output": "0.13862",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "1.7661216",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-5",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 10497582,
+          "cached_input_tokens": 9980800,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 44522,
+          "reasoning_output_tokens": 6604
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "2.067128",
+          "cached_input": "1.99616",
+          "cache_write_input": "0",
+          "output": "0.75836",
+          "reasoning_output": "0.13208",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "4.953728",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-6",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 6782282,
+          "cached_input_tokens": 6458624,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 33085,
+          "reasoning_output_tokens": 4532
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "1.294632",
+          "cached_input": "1.2917248",
+          "cache_write_input": "0",
+          "output": "0.57106",
+          "reasoning_output": "0.09064",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "3.2480568",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-7",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 2039749,
+          "cached_input_tokens": 1788032,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7593,
+          "reasoning_output_tokens": 1041
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "1.006868",
+          "cached_input": "0.3576064",
+          "cache_write_input": "0",
+          "output": "0.13104",
+          "reasoning_output": "0.02082",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "1.5163344",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-8",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 742616,
+          "cached_input_tokens": 726528,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3123,
+          "reasoning_output_tokens": 644
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.064352",
+          "cached_input": "0.1453056",
+          "cache_write_input": "0",
+          "output": "0.04958",
+          "reasoning_output": "0.01288",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.2721176",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-9",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 5714313,
+          "cached_input_tokens": 5402752,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 30075,
+          "reasoning_output_tokens": 4232
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "1.246244",
+          "cached_input": "1.0805504",
+          "cache_write_input": "0",
+          "output": "0.51686",
+          "reasoning_output": "0.08464",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "2.9282944",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-10",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 176813,
+          "cached_input_tokens": 141824,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2201,
+          "reasoning_output_tokens": 198
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.139956",
+          "cached_input": "0.0283648",
+          "cache_write_input": "0",
+          "output": "0.04006",
+          "reasoning_output": "0.00396",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.2123408",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-11",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 265446,
+          "cached_input_tokens": 230912,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2140,
+          "reasoning_output_tokens": 204
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.138136",
+          "cached_input": "0.0461824",
+          "cache_write_input": "0",
+          "output": "0.03872",
+          "reasoning_output": "0.00408",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.2271184",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-12",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 2720542,
+          "cached_input_tokens": 2559488,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 19417,
+          "reasoning_output_tokens": 2487
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.644216",
+          "cached_input": "0.5118976",
+          "cache_write_input": "0",
+          "output": "0.3386",
+          "reasoning_output": "0.04974",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "1.5444536",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-13",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 38396,
+          "cached_input_tokens": 24320,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 292,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.056304",
+          "cached_input": "0.004864",
+          "cache_write_input": "0",
+          "output": "0.00584",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.067008",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-14",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 3967389,
+          "cached_input_tokens": 3789696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 26520,
+          "reasoning_output_tokens": 3842
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.710772",
+          "cached_input": "0.7579392",
+          "cache_write_input": "0",
+          "output": "0.45356",
+          "reasoning_output": "0.07684",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "1.9991112",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-15",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 2024051,
+          "cached_input_tokens": 1872384,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 15736,
+          "reasoning_output_tokens": 2005
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.606668",
+          "cached_input": "0.3744768",
+          "cache_write_input": "0",
+          "output": "0.27462",
+          "reasoning_output": "0.0401",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "1.2958648",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-16",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 19072,
+          "cached_input_tokens": 12160,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 213,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.027648",
+          "cached_input": "0.002432",
+          "cache_write_input": "0",
+          "output": "0.00426",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.03434",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-17",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 833291,
+          "cached_input_tokens": 764416,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 5823,
+          "reasoning_output_tokens": 296
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.2755",
+          "cached_input": "0.1528832",
+          "cache_write_input": "0",
+          "output": "0.11054",
+          "reasoning_output": "0.00592",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.5448432",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-18",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 2092101,
+          "cached_input_tokens": 1953280,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2124,
+          "reasoning_output_tokens": 617
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.555284",
+          "cached_input": "0.390656",
+          "cache_write_input": "0",
+          "output": "0.03014",
+          "reasoning_output": "0.01234",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.98842",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-19",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 1249640,
+          "cached_input_tokens": 1177600,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2706,
+          "reasoning_output_tokens": 433
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.28816",
+          "cached_input": "0.23552",
+          "cache_write_input": "0",
+          "output": "0.04546",
+          "reasoning_output": "0.00866",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.5778",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-20",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 9793612,
+          "cached_input_tokens": 9717760,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 30529,
+          "reasoning_output_tokens": 15072
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.303408",
+          "cached_input": "1.943552",
+          "cache_write_input": "0",
+          "output": "0.30914",
+          "reasoning_output": "0.30144",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "2.85754",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-21",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 5020722,
+          "cached_input_tokens": 4910592,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 26591,
+          "reasoning_output_tokens": 6334
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.44052",
+          "cached_input": "0.9821184",
+          "cache_write_input": "0",
+          "output": "0.40514",
+          "reasoning_output": "0.12668",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "1.9544584",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-22",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 778602,
+          "cached_input_tokens": 705024,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4072,
+          "reasoning_output_tokens": 885
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "0.294312",
+          "cached_input": "0.1410048",
+          "cache_write_input": "0",
+          "output": "0.06374",
+          "reasoning_output": "0.0177",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.5167568",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-23",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 16344389,
+          "cached_input_tokens": 15918464,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 12455,
+          "reasoning_output_tokens": 4361
+        },
+        "rates_usd_per_million": {
+          "input": "4",
+          "cached_input": "0.2",
+          "cache_write_input": "5",
+          "cache_write_1h_input": "8",
+          "output": "20",
+          "reasoning_output": "20"
+        },
+        "charges_usd": {
+          "input": "1.7037",
+          "cached_input": "3.1836928",
+          "cache_write_input": "0",
+          "output": "0.16188",
+          "reasoning_output": "0.08722",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "5.1364928",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      }
+    ],
+    "charges_usd": {
+      "input": "17.575128",
+      "cached_input": "19.3369344",
+      "cache_write_input": "0",
+      "output": "6.40394",
+      "reasoning_output": "1.53056",
+      "tools": "unknown"
+    },
+    "known_subtotal_usd": "44.8465624",
+    "total_usd": "unknown",
+    "unknown": [
+      "line-1: tools: fee inventory/cost missing",
+      "line-2: tools: fee inventory/cost missing",
+      "line-3: tools: fee inventory/cost missing",
+      "line-4: tools: fee inventory/cost missing",
+      "line-5: tools: fee inventory/cost missing",
+      "line-6: tools: fee inventory/cost missing",
+      "line-7: tools: fee inventory/cost missing",
+      "line-8: tools: fee inventory/cost missing",
+      "line-9: tools: fee inventory/cost missing",
+      "line-10: tools: fee inventory/cost missing",
+      "line-11: tools: fee inventory/cost missing",
+      "line-12: tools: fee inventory/cost missing",
+      "line-13: tools: fee inventory/cost missing",
+      "line-14: tools: fee inventory/cost missing",
+      "line-15: tools: fee inventory/cost missing",
+      "line-16: tools: fee inventory/cost missing",
+      "line-17: tools: fee inventory/cost missing",
+      "line-18: tools: fee inventory/cost missing",
+      "line-19: tools: fee inventory/cost missing",
+      "line-20: tools: fee inventory/cost missing",
+      "line-21: tools: fee inventory/cost missing",
+      "line-22: tools: fee inventory/cost missing",
+      "line-23: tools: fee inventory/cost missing"
+    ]
+  },
+  "claude-opus-5-5:fast": {
+    "model": "claude-opus-5-5:fast",
+    "currency": "USD",
+    "scope": "direct API global token replay; not subscription charges",
+    "assumptions": [
+      "same recorded token counts, cache hits and attempts across models; counterfactual only"
+    ],
+    "rounds": [
+      {
+        "id": "line-1",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 13292519,
+          "cached_input_tokens": 12556416,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 51777,
+          "reasoning_output_tokens": 7663
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "5.888824",
+          "cached_input": "5.0225664",
+          "cache_write_input": "0",
+          "output": "1.76456",
+          "reasoning_output": "0.30652",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "12.9824704",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-2",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 11757185,
+          "cached_input_tokens": 11230720,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 49038,
+          "reasoning_output_tokens": 7262
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "4.21172",
+          "cached_input": "4.492288",
+          "cache_write_input": "0",
+          "output": "1.67104",
+          "reasoning_output": "0.29048",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "10.665528",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-3",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 564956,
+          "cached_input_tokens": 527232,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6251,
+          "reasoning_output_tokens": 885
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.301792",
+          "cached_input": "0.2108928",
+          "cache_write_input": "0",
+          "output": "0.21464",
+          "reasoning_output": "0.0354",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.7627248",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-4",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 4363186,
+          "cached_input_tokens": 4235648,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 20442,
+          "reasoning_output_tokens": 6931
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "1.020304",
+          "cached_input": "1.6942592",
+          "cache_write_input": "0",
+          "output": "0.54044",
+          "reasoning_output": "0.27724",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "3.5322432",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-5",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 10497582,
+          "cached_input_tokens": 9980800,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 44522,
+          "reasoning_output_tokens": 6604
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "4.134256",
+          "cached_input": "3.99232",
+          "cache_write_input": "0",
+          "output": "1.51672",
+          "reasoning_output": "0.26416",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "9.907456",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-6",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 6782282,
+          "cached_input_tokens": 6458624,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 33085,
+          "reasoning_output_tokens": 4532
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "2.589264",
+          "cached_input": "2.5834496",
+          "cache_write_input": "0",
+          "output": "1.14212",
+          "reasoning_output": "0.18128",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "6.4961136",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-7",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 2039749,
+          "cached_input_tokens": 1788032,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7593,
+          "reasoning_output_tokens": 1041
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "2.013736",
+          "cached_input": "0.7152128",
+          "cache_write_input": "0",
+          "output": "0.26208",
+          "reasoning_output": "0.04164",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "3.0326688",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-8",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 742616,
+          "cached_input_tokens": 726528,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3123,
+          "reasoning_output_tokens": 644
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.128704",
+          "cached_input": "0.2906112",
+          "cache_write_input": "0",
+          "output": "0.09916",
+          "reasoning_output": "0.02576",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.5442352",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-9",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 5714313,
+          "cached_input_tokens": 5402752,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 30075,
+          "reasoning_output_tokens": 4232
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "2.492488",
+          "cached_input": "2.1611008",
+          "cache_write_input": "0",
+          "output": "1.03372",
+          "reasoning_output": "0.16928",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "5.8565888",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-10",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 176813,
+          "cached_input_tokens": 141824,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2201,
+          "reasoning_output_tokens": 198
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.279912",
+          "cached_input": "0.0567296",
+          "cache_write_input": "0",
+          "output": "0.08012",
+          "reasoning_output": "0.00792",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.4246816",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-11",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 265446,
+          "cached_input_tokens": 230912,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2140,
+          "reasoning_output_tokens": 204
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.276272",
+          "cached_input": "0.0923648",
+          "cache_write_input": "0",
+          "output": "0.07744",
+          "reasoning_output": "0.00816",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.4542368",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-12",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 2720542,
+          "cached_input_tokens": 2559488,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 19417,
+          "reasoning_output_tokens": 2487
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "1.288432",
+          "cached_input": "1.0237952",
+          "cache_write_input": "0",
+          "output": "0.6772",
+          "reasoning_output": "0.09948",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "3.0889072",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-13",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 38396,
+          "cached_input_tokens": 24320,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 292,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.112608",
+          "cached_input": "0.009728",
+          "cache_write_input": "0",
+          "output": "0.01168",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.134016",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-14",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 3967389,
+          "cached_input_tokens": 3789696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 26520,
+          "reasoning_output_tokens": 3842
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "1.421544",
+          "cached_input": "1.5158784",
+          "cache_write_input": "0",
+          "output": "0.90712",
+          "reasoning_output": "0.15368",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "3.9982224",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-15",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 2024051,
+          "cached_input_tokens": 1872384,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 15736,
+          "reasoning_output_tokens": 2005
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "1.213336",
+          "cached_input": "0.7489536",
+          "cache_write_input": "0",
+          "output": "0.54924",
+          "reasoning_output": "0.0802",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "2.5917296",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-16",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 19072,
+          "cached_input_tokens": 12160,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 213,
+          "reasoning_output_tokens": 0
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.055296",
+          "cached_input": "0.004864",
+          "cache_write_input": "0",
+          "output": "0.00852",
+          "reasoning_output": "0",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "0.06868",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-17",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 833291,
+          "cached_input_tokens": 764416,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 5823,
+          "reasoning_output_tokens": 296
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.551",
+          "cached_input": "0.3057664",
+          "cache_write_input": "0",
+          "output": "0.22108",
+          "reasoning_output": "0.01184",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "1.0896864",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-18",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 2092101,
+          "cached_input_tokens": 1953280,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2124,
+          "reasoning_output_tokens": 617
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "1.110568",
+          "cached_input": "0.781312",
+          "cache_write_input": "0",
+          "output": "0.06028",
+          "reasoning_output": "0.02468",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "1.97684",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-19",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 1249640,
+          "cached_input_tokens": 1177600,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2706,
+          "reasoning_output_tokens": 433
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.57632",
+          "cached_input": "0.47104",
+          "cache_write_input": "0",
+          "output": "0.09092",
+          "reasoning_output": "0.01732",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "1.1556",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-20",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 9793612,
+          "cached_input_tokens": 9717760,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 30529,
+          "reasoning_output_tokens": 15072
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.606816",
+          "cached_input": "3.887104",
+          "cache_write_input": "0",
+          "output": "0.61828",
+          "reasoning_output": "0.60288",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "5.71508",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-21",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 5020722,
+          "cached_input_tokens": 4910592,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 26591,
+          "reasoning_output_tokens": 6334
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.88104",
+          "cached_input": "1.9642368",
+          "cache_write_input": "0",
+          "output": "0.81028",
+          "reasoning_output": "0.25336",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "3.9089168",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-22",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 778602,
+          "cached_input_tokens": 705024,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4072,
+          "reasoning_output_tokens": 885
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "0.588624",
+          "cached_input": "0.2820096",
+          "cache_write_input": "0",
+          "output": "0.12748",
+          "reasoning_output": "0.0354",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "1.0335136",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      },
+      {
+        "id": "line-23",
+        "original_model": "unknown",
+        "model": "claude-opus-5-5:fast",
+        "kind": "unknown",
+        "retry": null,
+        "status": "completed",
+        "tier": "short",
+        "usage": {
+          "input_tokens": 16344389,
+          "cached_input_tokens": 15918464,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 12455,
+          "reasoning_output_tokens": 4361
+        },
+        "rates_usd_per_million": {
+          "input": "8",
+          "cached_input": "0.4",
+          "cache_write_input": "10",
+          "cache_write_1h_input": "16",
+          "output": "40",
+          "reasoning_output": "40"
+        },
+        "charges_usd": {
+          "input": "3.4074",
+          "cached_input": "6.3673856",
+          "cache_write_input": "0",
+          "output": "0.32376",
+          "reasoning_output": "0.17444",
+          "tools": "unknown"
+        },
+        "known_subtotal_usd": "10.2729856",
+        "total_usd": "unknown",
+        "unknown": [
+          "tools: fee inventory/cost missing"
+        ],
+        "notes": []
+      }
+    ],
+    "charges_usd": {
+      "input": "35.150256",
+      "cached_input": "38.6738688",
+      "cache_write_input": "0",
+      "output": "12.80788",
+      "reasoning_output": "3.06112",
+      "tools": "unknown"
+    },
+    "known_subtotal_usd": "89.6931248",
+    "total_usd": "unknown",
+    "unknown": [
+      "line-1: tools: fee inventory/cost missing",
+      "line-2: tools: fee inventory/cost missing",
+      "line-3: tools: fee inventory/cost missing",
+      "line-4: tools: fee inventory/cost missing",
+      "line-5: tools: fee inventory/cost missing",
+      "line-6: tools: fee inventory/cost missing",
+      "line-7: tools: fee inventory/cost missing",
+      "line-8: tools: fee inventory/cost missing",
+      "line-9: tools: fee inventory/cost missing",
+      "line-10: tools: fee inventory/cost missing",
+      "line-11: tools: fee inventory/cost missing",
+      "line-12: tools: fee inventory/cost missing",
+      "line-13: tools: fee inventory/cost missing",
+      "line-14: tools: fee inventory/cost missing",
+      "line-15: tools: fee inventory/cost missing",
+      "line-16: tools: fee inventory/cost missing",
+      "line-17: tools: fee inventory/cost missing",
+      "line-18: tools: fee inventory/cost missing",
+      "line-19: tools: fee inventory/cost missing",
+      "line-20: tools: fee inventory/cost missing",
+      "line-21: tools: fee inventory/cost missing",
+      "line-22: tools: fee inventory/cost missing",
+      "line-23: tools: fee inventory/cost missing"
+    ]
+  }
+}

@@ -23,6 +23,7 @@ test_route_evidence_and_deadline (test_cost_router.BillingTests.test_route_evide
 test_route_no_quality_claim (test_cost_router.BillingTests.test_route_no_quality_claim) ... ok
 test_unknown_cache_ttl (test_cost_router.BillingTests.test_unknown_cache_ttl) ... ok
 test_unknown_model (test_cost_router.BillingTests.test_unknown_model) ... ok
+test_arrived_fleet_aggregate_sample (test_cost_router.ImportTests.test_arrived_fleet_aggregate_sample) ... ok
 test_csv_matches_jsonl (test_cost_router.ImportTests.test_csv_matches_jsonl) ... ok
 test_cumulative_deltas_not_double_counted (test_cost_router.ImportTests.test_cumulative_deltas_not_double_counted) ... ok
 test_empty_rejected (test_cost_router.ImportTests.test_empty_rejected) ... ok
@@ -32,6 +33,6 @@ test_native_duplicate_not_billed_twice (test_cost_router.ImportTests.test_native
 test_real_sample_import (test_cost_router.ImportTests.test_real_sample_import) ... ok
 
 ----------------------------------------------------------------------
-Ran 32 tests in 0.002s
+Ran 33 tests in 0.003s
 
 OK

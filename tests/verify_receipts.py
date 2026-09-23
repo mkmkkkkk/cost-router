@@ -12,11 +12,18 @@ rates = {
     'claude-opus-5-5:fast': ('8', '.4', '10', '40'),
 }
 checks = 0
-for stem, source in [('synthetic', 'samples/synthetic.jsonl'), ('real', 'samples/local-usage.jsonl')]:
+for stem, source in [('synthetic', 'samples/synthetic.jsonl'), ('real', 'samples/local-usage.jsonl'), ('fleet', 'samples/fleet-import.snapshot.jsonl')]:
     events = [json.loads(x) for x in (root / source).read_text().splitlines()]
     usages = events if stem == 'synthetic' else [e['payload']['usage'] for e in events if e['type'] == 'token_usage_record']
+    if stem == 'fleet':
+        usages = [e['usage'] for e in events]
     receipt = json.loads((root / f'receipts/{stem}-bill.json').read_text())
     for model, strings in rates.items():
+        if stem == 'fleet' and model.startswith('gpt'):
+            assert receipt[model]['total_usd'] == 'unknown'
+            assert receipt[model]['rounds'][0]['tier'] == 'unknown'
+            print(f'fleet {model} total=unknown aggregate_context_boundary_missing')
+            continue
         subtotal = D(0)
         assert len(usages) == len(receipt[model]['rounds'])
         for u, billed in zip(usages, receipt[model]['rounds']):
@@ -31,7 +38,7 @@ for stem, source in [('synthetic', 'samples/synthetic.jsonl'), ('real', 'samples
                 checks += 1
             subtotal += sum(values.values())
         assert D(receipt[model]['known_subtotal_usd']) == subtotal
-        assert receipt[model]['total_usd'] == 'unknown' if stem == 'real' else D(receipt[model]['total_usd']) == subtotal
+        assert receipt[model]['total_usd'] == 'unknown' if stem != 'synthetic' else D(receipt[model]['total_usd']) == subtotal
         print(f'{stem} {model} rounds={len(usages)} independently_recomputed_usd={subtotal} total={receipt[model]["total_usd"]}')
 for file in ['README.md', 'prices/2026-09-24.json', 'samples/local-usage.jsonl', 'docs/handworked.md', 'receipts/tests-green.txt']:
     data = (root / file).read_bytes()

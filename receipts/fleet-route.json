@@ -1,0 +1,230 @@
+{
+  "slo": "latency<=30s,quality>=baseline",
+  "slo_status": "unknown",
+  "latency_seconds": "unknown",
+  "strategy": [
+    {
+      "id": "line-1",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-2",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-3",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-4",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-5",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-6",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-7",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-8",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-9",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-10",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-11",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-12",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-13",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-14",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-15",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-16",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-17",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-18",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-19",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-20",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-21",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-22",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    },
+    {
+      "id": "line-23",
+      "kind": "unknown",
+      "selected": "unknown",
+      "reason": "retain original: no task-feasible quality and latency evidence",
+      "scenario": "unknown",
+      "scenario_savings_usd": "unknown",
+      "scenario_note": "cost scenario only; does not establish safe downgrade"
+    }
+  ],
+  "baseline_total_usd": "unknown",
+  "routed_total_usd": "unknown",
+  "savings_usd": "unknown",
+  "assumptions": [
+    "sequential task; same token/cache/retry counts; evidence supplied by caller, not independently verified",
+    "switching providers/modes can invalidate caches; savings are replay scenarios, not realized savings"
+  ],
+  "unknown": [
+    "cached_input: usage or cached_input price unknown",
+    "input: usage or input price unknown",
+    "model price: unknown",
+    "output: usage or output price unknown",
+    "reasoning_output: usage or reasoning_output price unknown",
+    "tools: fee inventory/cost missing",
+    "quality/latency: no evidence-backed complete route within task deadline"
+  ]
+}

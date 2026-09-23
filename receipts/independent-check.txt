@@ -6,9 +6,13 @@ real gpt-6-sol rounds=25 independently_recomputed_usd=0.8157508 total=unknown
 real gpt-6-luna rounds=25 independently_recomputed_usd=0.04078754 total=unknown
 real claude-opus-5-5 rounds=25 independently_recomputed_usd=1.2440968 total=unknown
 real claude-opus-5-5:fast rounds=25 independently_recomputed_usd=2.4881936 total=unknown
-readback README.md bytes=5187 sha256=187d9ffc6851e45f2be0d38035fc32639815b87a6df445310ee87c90472ebf5b
+fleet gpt-6-sol total=unknown aggregate_context_boundary_missing
+fleet gpt-6-luna total=unknown aggregate_context_boundary_missing
+fleet claude-opus-5-5 rounds=23 independently_recomputed_usd=44.8465624 total=unknown
+fleet claude-opus-5-5:fast rounds=23 independently_recomputed_usd=89.6931248 total=unknown
+readback README.md bytes=5534 sha256=1d7b75f869dacf3f5e4320b6df48baf984e17320210f6883db2fdb3e0224d02a
 readback prices/2026-09-24.json bytes=20398 sha256=87a4eff90d0935676fd05e02331b71dc2d08dc2a111a0a47e034bbd757345ea5
 readback samples/local-usage.jsonl bytes=8677 sha256=17cef749d0d029887020cb968b56c2103d6cdca2b9697b08f360c66c5789dcab
 readback docs/handworked.md bytes=2392 sha256=40b57ae1a62358dc1aaf170dec6c85953368be184e7134220be3fa1d1ce94e55
-readback receipts/tests-green.txt bytes=3266 sha256=e10712dcf3cc812fdd5e5f45b562cb20d6e6a3254f4c25c6fac9feea438679f9
-INDEPENDENT_CHECK_OK item_assertions=560
+readback receipts/tests-green.txt bytes=3376 sha256=e68069f30896de40cd0935df907ea16c39271b0e4bbfefcecdf8384b1c1141d9
+INDEPENDENT_CHECK_OK item_assertions=790

@@ -8,6 +8,7 @@
 cd ~/Documents/Workspace/cost-router
 export PATH="$PWD:$PATH"
 cost-router bill samples/synthetic.jsonl --prices prices/2026-09-24.json --models all
+cost-router bill samples/fleet-import.snapshot.jsonl --models all --json
 cost-router bill samples/local-usage.jsonl --models all --json
 cost-router bill samples/synthetic.csv --models original
 cost-router route samples/synthetic.jsonl --slo 'latency<=30s,quality>=baseline'
@@ -30,7 +31,7 @@ python3 tests/verify_receipts.py
 
 输入约定见 [schema](docs/schema.md)。一个通用记录就是**一次尝试**；失败和重试各占一条，不根据 `retry=true` 再乘倍数。`turn.completed`/`turn.failed` 默认是可能含多次请求的聚合用量，因此 Sol/Luna 无法确定长上下文档位；不能把多次请求的输入之和当成某一次的上下文。若生成方保证是一条请求，可明确写 `granularity=request`。
 
-本机样本 `samples/local-usage.jsonl` 是 25 条真实每请求 token 记录，仅含模型与用量，没有任务正文。提取来源、时间与原日志哈希见 `samples/local-usage.provenance.json`。优先使用了已有样本目录，但 Nerve 的 fleet 文件当时为 0 字节，所以选择本机日志。真实样本原模型为 GPT-6 Astra（本期定价范围外），原账单和路由 diff 为 unknown；工具费、失败/重试标签、质量/时延证据也缺失。真实样本 repricing 的已知 token 小计不是已结算账单。
+本机样本 `samples/local-usage.jsonl` 是 25 条真实每请求 token 记录，仅含模型与用量，没有任务正文。提取来源、时间与原日志哈希见 `samples/local-usage.provenance.json`。Nerve 的 fleet 文件开始为 0 字节；收尾时 23 条舰队汇总记录已到达，已优先补跑并保存只读副本 `samples/fleet-import.snapshot.jsonl` 及来源哈希。该样本没有模型、工具费或逐请求边界，Sol/Luna 金额 unknown；Opus/Fast 可算已知 token 小计 44.8465624 / 89.6931248，完整总额仍 unknown。原始 Nerve 文件保持不变。真实样本原模型为 GPT-6 Astra（本期定价范围外），原账单和路由 diff 为 unknown；工具费、失败/重试标签、质量/时延证据也缺失。真实样本 repricing 的已知 token 小计不是已结算账单。
 
 路由规则：按轮次 `kind` 匹配调用方提供的评测证据，满足 `quality_vs_baseline>=1`（或更严格的逐轮下限）及逐轮时限，再在**整个串行任务**时限内选择总成本最低的组合。只有完整价格且证据有来源的候选才参与。缺乏完整可行证据时保留原模型，仅给出固定 token/cache/retry 轨迹的成本情景；不宣称可降级、不把宣传速度当作时延测量。评测来源不经本工具独立认证，支持状态也不是性能保证。跨模型 tokenizer、输出长度、缓存失效、重试次数可能变化，所有替代模型金额都是固定轨迹情景。
 

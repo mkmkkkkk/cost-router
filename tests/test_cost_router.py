@@ -186,6 +186,18 @@ class ImportTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'malformed.jsonl:1'):
             load_trace(ROOT / 'tests/fixtures/malformed.jsonl')
 
+    def test_arrived_fleet_aggregate_sample(self):
+        rows = load_trace(ROOT / 'samples/fleet-import.snapshot.jsonl')
+        prices = json.loads((ROOT / 'prices/2026-09-24.json').read_text())
+        self.assertEqual(len(rows), 23)
+        self.assertEqual(rows[0]['input_tokens'], 13292519)
+        self.assertEqual(rows[0]['model'], 'unknown')
+        self.assertEqual(bill(rows, prices, 'gpt-6-sol')['total_usd'], 'unknown')
+        opus = bill(rows, prices, 'claude-opus-5-5')
+        self.assertEqual(opus['known_subtotal_usd'], '44.8465624')
+        self.assertEqual(opus['total_usd'], 'unknown')
+        self.assertEqual(bill(rows, prices, 'claude-opus-5-5:fast')['known_subtotal_usd'], '89.6931248')
+
     def test_empty_rejected(self):
         with self.assertRaisesRegex(ValueError, 'no usage'):
             load_trace(ROOT / 'tests/fixtures/empty.jsonl')
